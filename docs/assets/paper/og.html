@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>og</title>
+<style>
+  * { box-sizing: border-box; margin: 0; }
+  html, body { width: 1200px; height: 630px; }
+  body {
+    position: relative; overflow: hidden; padding: 64px 72px;
+    background: radial-gradient(75% 60% at 50% 115%, #f1d2cb, transparent 72%), #ecebee;
+    color: #3a3a3f; font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Inter", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .row { display: flex; align-items: center; gap: 14px; }
+  .mark { width: 44px; height: 44px; border-radius: 12px; box-shadow: 0 1px 2px rgb(40 20 50 / .08), 0 4px 12px -4px rgb(40 20 50 / .2); }
+  .meta { color: #636368; font: 600 17px/1 -apple-system, sans-serif; letter-spacing: .03em; text-transform: uppercase; }
+  h1 { margin-top: 36px; color: #1d1d1f; font: 700 92px/.95 -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif; letter-spacing: -.045em; }
+  h1 em { font-style: normal; padding-right: .08em; background: linear-gradient(100deg, #6a5ae8 0%, #c43b93 50%, #d36a1e 100%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .sub { margin-top: 20px; color: #636368; font-size: 26px; font-weight: 500; letter-spacing: -.012em; }
+  .levels { position: absolute; left: 72px; right: 72px; bottom: 60px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+  .lv { padding: 18px 20px; border: 1px solid rgb(255 255 255 / .8); border-radius: 22px; background: rgb(255 255 255 / .5);
+        box-shadow: 0 1px 0 rgb(255 255 255 / .75) inset, 0 18px 40px -22px rgb(90 50 100 / .35); }
+  .lv b { display: flex; align-items: center; gap: 10px; color: var(--c); font-size: 21px; font-weight: 600; letter-spacing: -.01em; }
+  .lv b::before { content: ""; width: 10px; height: 10px; border-radius: 50%; background: var(--c); box-shadow: 0 0 0 4px color-mix(in srgb, var(--c) 18%, transparent); }
+  .lv p { margin-top: 8px; color: #3a3a3f; font-size: 16px; line-height: 1.45; }
+</style>
+</head>
+<body>
+  <div class="row">
+    <svg class="mark" viewBox="0 0 24 24"><rect width="24" height="24" rx="6.5" fill="#1d1d1f"/><rect x="4" y="9.5" width="1.6" height="5" rx=".8" fill="#a99cff"/><rect x="6.4" y="7.5" width="1.6" height="9" rx=".8" fill="#a99cff"/><rect x="8.8" y="5" width="1.6" height="14" rx=".8" fill="#f08ad0"/><rect x="11.2" y="7" width="1.6" height="10" rx=".8" fill="#f08ad0"/><rect x="13.6" y="4.5" width="1.6" height="15" rx=".8" fill="#f08ad0"/><rect x="16" y="8" width="1.6" height="8" rx=".8" fill="#ffb27a"/><rect x="18.4" y="9.5" width="1.6" height="5" rx=".8" fill="#ffb27a"/></svg>
+    <span class="meta">EMNLP 2026 · ServiceNow</span>
+  </div>
+  <h1>Beyond <em>Naturalness</em></h1>
+  <p class="sub">Listen to TTS errors across ten dimensions, and see which evaluators detect them</p>
+  <div class="levels">
+    <div class="lv" style="--c:#5546d6"><b>Word level</b><p>Phonetic accuracy · Lexical stress</p></div>
+    <div class="lv" style="--c:#b32f86"><b>Prosodic level</b><p>Intonation · Prosodic stress · Boundary placement · Speech rate</p></div>
+    <div class="lv" style="--c:#a04d0a"><b>Paralinguistic level</b><p>Emotion · Expressiveness · Speaker identity · Human plausibility</p></div>
+  </div>
+</body>
+</html>

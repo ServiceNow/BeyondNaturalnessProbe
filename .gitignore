@@ -1,0 +1,42 @@
+# Generated audio output (large binary files — regenerate by running pipelines)
+**/output/
+**/*.wav
+
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.Python
+.venv/
+venv/
+env/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Utterance cache (tracks which utterances have been used across runs)
+.cache/
+
+# Test/coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+/results

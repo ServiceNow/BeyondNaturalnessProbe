@@ -1,0 +1,552 @@
+{
+  "experiment_name": "prosodic_boundary_60_samples",
+  "description": "60 samples for prosodic boundary evaluation. Boundary annotations use | to mark: where boundaries SHOULD be (missing_boundary), where they ARE placed wrongly (extra_boundary), or where they naturally occur (natural).",
+  "total_samples": 60,
+  "scoring": {
+    "1": "Boundary missing or misplaced, effect is severe. Cannot recover intended sentence structure.",
+    "2": "Boundary missing or misplaced, noticeably hurts listening but you can still follow.",
+    "3": "Boundaries align naturally with syntactic and semantic structure."
+  },
+  "utterances": [
+    {
+      "id": 1,
+      "score": 1,
+      "error_type": "missing_boundary",
+      "text": "When the dog bites the man screams for help.",
+      "boundary_annotation": "When the dog bites | the man screams for help.",
+      "description": "Without boundary after 'bites', listener parses 'the dog bites the man' as one phrase \u2014 then 'screams' has no subject and the sentence falls apart.",
+      "tts_text": "When the dog bites the man screams for help."
+    },
+    {
+      "id": 2,
+      "score": 1,
+      "error_type": "missing_boundary",
+      "text": "While the hunter shot the deer ran into the woods.",
+      "boundary_annotation": "While the hunter shot | the deer ran into the woods.",
+      "description": "Without boundary after 'shot', listener hears 'the hunter shot the deer' \u2014 then 'ran into the woods' has no subject and makes no sense.",
+      "tts_text": "While the hunter shot the deer ran into the woods."
+    },
+    {
+      "id": 3,
+      "score": 1,
+      "error_type": "missing_boundary",
+      "text": "After the boy left the girl started crying.",
+      "boundary_annotation": "After the boy left | the girl started crying.",
+      "description": "Without boundary after 'left', listener hears 'the boy left the girl' \u2014 then 'started crying' dangles with no clear subject.",
+      "tts_text": "After the boy left the girl started crying."
+    },
+    {
+      "id": 4,
+      "score": 1,
+      "error_type": "missing_boundary",
+      "text": "When she cleans the house smells like lemons.",
+      "boundary_annotation": "When she cleans | the house smells like lemons.",
+      "description": "Without boundary after 'cleans', listener hears 'she cleans the house' \u2014 then 'smells like lemons' is unparsable.",
+      "tts_text": "When she cleans the house smells like lemons."
+    },
+    {
+      "id": 5,
+      "score": 1,
+      "error_type": "missing_boundary",
+      "text": "While the mother cooked the children played outside.",
+      "boundary_annotation": "While the mother cooked | the children played outside.",
+      "description": "Without boundary after 'cooked', listener hears 'the mother cooked the children' \u2014 horrifying misparse, structure completely breaks.",
+      "tts_text": "While the mother cooked the children played outside."
+    },
+    {
+      "id": 6,
+      "score": 1,
+      "error_type": "missing_boundary",
+      "text": "As the fire burned the building collapsed to the ground.",
+      "boundary_annotation": "As the fire burned | the building collapsed to the ground.",
+      "description": "Without boundary after 'burned', listener hears 'the fire burned the building' \u2014 then 'collapsed' has no subject.",
+      "tts_text": "As the fire burned the building collapsed to the ground."
+    },
+    {
+      "id": 7,
+      "score": 1,
+      "error_type": "missing_boundary",
+      "text": "Before the teacher spoke the students had already left.",
+      "boundary_annotation": "Before the teacher spoke | the students had already left.",
+      "description": "Without boundary after 'spoke', listener hears 'the teacher spoke the students' \u2014 nonsensical verb usage, structure collapses.",
+      "tts_text": "Before the teacher spoke the students had already left."
+    },
+    {
+      "id": 8,
+      "score": 1,
+      "error_type": "missing_boundary",
+      "text": "Since the workers finished the project moved forward quickly.",
+      "boundary_annotation": "Since the workers finished | the project moved forward quickly.",
+      "description": "Without boundary after 'finished', listener hears 'the workers finished the project' \u2014 then 'moved forward' has no subject.",
+      "tts_text": "Since the workers finished the project moved forward quickly."
+    },
+    {
+      "id": 9,
+      "score": 1,
+      "error_type": "missing_boundary",
+      "text": "The horse raced past the barn fell down.",
+      "boundary_annotation": "The horse raced past the barn | fell down.",
+      "description": "Classic garden path. Without boundary, listener expects 'raced' as main verb \u2014 then 'fell down' seems to come from nowhere.",
+      "tts_text": "The horse raced past the barn fell down."
+    },
+    {
+      "id": 10,
+      "score": 1,
+      "error_type": "missing_boundary",
+      "text": "The woman who whistles tunes pianos for a living.",
+      "boundary_annotation": "The woman who whistles | tunes pianos for a living.",
+      "description": "Without boundary after 'whistles', listener hears 'who whistles tunes' \u2014 then 'pianos' makes no sense as a continuation.",
+      "tts_text": "The woman who whistles tunes pianos for a living."
+    },
+    {
+      "id": 11,
+      "score": 1,
+      "error_type": "extra_boundary",
+      "text": "The quick brown fox jumps over the lazy dog.",
+      "boundary_annotation": "The quick brown | fox jumps over the lazy dog.",
+      "description": "Boundary splits noun phrase 'quick brown fox' \u2014 listener cannot group the adjectives with the noun, sentence structure breaks.",
+      "tts_text": "The quick brown, fox jumps over the lazy dog."
+    },
+    {
+      "id": 12,
+      "score": 1,
+      "error_type": "extra_boundary",
+      "text": "He was looking forward to the vacation.",
+      "boundary_annotation": "He was looking | forward to the vacation.",
+      "description": "Boundary splits phrasal verb 'looking forward to' \u2014 listener hears 'he was looking' then 'forward to the vacation' as unrelated, structure collapses.",
+      "tts_text": "He was looking, forward to the vacation."
+    },
+    {
+      "id": 13,
+      "score": 1,
+      "error_type": "extra_boundary",
+      "text": "She fell asleep during the boring movie.",
+      "boundary_annotation": "She fell | asleep during the boring movie.",
+      "description": "Boundary splits compound verb 'fell asleep' \u2014 listener hears 'she fell' as a complete thought, then 'asleep' seems like a restart.",
+      "tts_text": "She fell, asleep during the boring movie."
+    },
+    {
+      "id": 14,
+      "score": 1,
+      "error_type": "extra_boundary",
+      "text": "They could not believe what just happened.",
+      "boundary_annotation": "They could | not believe what just happened.",
+      "description": "Boundary splits modal from negation \u2014 listener hears 'they could' then 'not believe' as disconnected, cannot recover intended meaning.",
+      "tts_text": "They could, not believe what just happened."
+    },
+    {
+      "id": 15,
+      "score": 1,
+      "error_type": "extra_boundary",
+      "text": "The president of the United States addressed the nation.",
+      "boundary_annotation": "The president of | the United States addressed the nation.",
+      "description": "Boundary splits prepositional phrase \u2014 listener hears 'the president of' dangling, then a new clause starting with 'the United States'.",
+      "tts_text": "The president of, the United States addressed the nation."
+    },
+    {
+      "id": 16,
+      "score": 1,
+      "error_type": "extra_boundary",
+      "text": "I want to quickly finish my homework tonight.",
+      "boundary_annotation": "I want to | quickly finish my homework tonight.",
+      "description": "Boundary splits infinitive 'to quickly finish' \u2014 listener hears 'I want to' as complete, then 'quickly finish' as a command.",
+      "tts_text": "I want to, quickly finish my homework tonight."
+    },
+    {
+      "id": 17,
+      "score": 1,
+      "error_type": "extra_boundary",
+      "text": "She has been running for three straight hours.",
+      "boundary_annotation": "She has been | running for three straight hours.",
+      "description": "Boundary splits progressive aspect 'has been running' \u2014 listener hears 'she has been' then 'running' as disconnected fragments.",
+      "tts_text": "She has been, running for three straight hours."
+    },
+    {
+      "id": 18,
+      "score": 1,
+      "error_type": "extra_boundary",
+      "text": "He picked up his bag and walked out the door.",
+      "boundary_annotation": "He picked | up his bag and walked out the door.",
+      "description": "Boundary splits phrasal verb 'picked up' \u2014 listener hears 'he picked' then 'up his bag' as unrelated, structure collapses.",
+      "tts_text": "He picked, up his bag and walked out the door."
+    },
+    {
+      "id": 19,
+      "score": 1,
+      "error_type": "extra_boundary",
+      "text": "They were about to leave when it started raining.",
+      "boundary_annotation": "They were | about to leave when it started raining.",
+      "description": "Boundary splits 'were about to' \u2014 listener hears 'they were' as complete, then 'about to leave' as a disjointed restart.",
+      "tts_text": "They were, about to leave when it started raining."
+    },
+    {
+      "id": 20,
+      "score": 1,
+      "error_type": "extra_boundary",
+      "text": "She wanted to give up her seat on the crowded bus.",
+      "boundary_annotation": "She wanted to give | up her seat on the crowded bus.",
+      "description": "Boundary splits phrasal verb 'give up' \u2014 listener hears 'she wanted to give' then 'up her seat' as unrelated, structure collapses.",
+      "tts_text": "She wanted to give, up her seat on the crowded bus."
+    },
+    {
+      "id": 21,
+      "score": 2,
+      "error_type": "missing_boundary",
+      "text": "She cooked dinner and he washed the dishes.",
+      "boundary_annotation": "She cooked dinner | and he washed the dishes.",
+      "description": "Missing boundary before coordinating conjunction \u2014 sounds rushed and run-together, but both clauses are still comprehensible.",
+      "tts_text": "She cooked dinnerand he washed the dishes."
+    },
+    {
+      "id": 22,
+      "score": 2,
+      "error_type": "missing_boundary",
+      "text": "The dog barked loudly but nobody came to check.",
+      "boundary_annotation": "The dog barked loudly | but nobody came to check.",
+      "description": "Missing adversative boundary \u2014 sounds choppy and hurried, but sentence meaning is still recoverable.",
+      "tts_text": "The dog barked loudlybut nobody came to check."
+    },
+    {
+      "id": 23,
+      "score": 2,
+      "error_type": "missing_boundary",
+      "text": "He opened the door and stepped outside into the rain.",
+      "boundary_annotation": "He opened the door | and stepped outside into the rain.",
+      "description": "Missing coordinating boundary \u2014 two actions run together unnaturally, but listener can still follow the sequence.",
+      "tts_text": "He opened the doorand stepped outside into the rain."
+    },
+    {
+      "id": 24,
+      "score": 2,
+      "error_type": "missing_boundary",
+      "text": "The rain stopped so we went for a walk.",
+      "boundary_annotation": "The rain stopped | so we went for a walk.",
+      "description": "Missing resultative boundary \u2014 cause and effect blur together, sounds rushed but meaning is clear.",
+      "tts_text": "The rain stoppedso we went for a walk."
+    },
+    {
+      "id": 25,
+      "score": 2,
+      "error_type": "missing_boundary",
+      "text": "She smiled warmly and greeted all her guests.",
+      "boundary_annotation": "She smiled warmly | and greeted all her guests.",
+      "description": "Missing coordinating boundary \u2014 actions run together without pause, sounds unnatural but followable.",
+      "tts_text": "She smiled warmlyand greeted all her guests."
+    },
+    {
+      "id": 26,
+      "score": 2,
+      "error_type": "missing_boundary",
+      "text": "The phone rang but she didn't answer it.",
+      "boundary_annotation": "The phone rang | but she didn't answer it.",
+      "description": "Missing adversative boundary \u2014 contrast between clauses is lost, sounds flat and rushed but still comprehensible.",
+      "tts_text": "The phone rangbut she didn't answer it."
+    },
+    {
+      "id": 27,
+      "score": 2,
+      "error_type": "missing_boundary",
+      "text": "He finished his coffee then left for work early.",
+      "boundary_annotation": "He finished his coffee | then left for work early.",
+      "description": "Missing temporal boundary \u2014 sequence of events runs together, sounds hurried but listener can still track the actions.",
+      "tts_text": "He finished his coffeethen left for work early."
+    },
+    {
+      "id": 28,
+      "score": 2,
+      "error_type": "missing_boundary",
+      "text": "The store was closed so they drove back home.",
+      "boundary_annotation": "The store was closed | so they drove back home.",
+      "description": "Missing resultative boundary \u2014 cause and result blur, sounds choppy but meaning preserved.",
+      "tts_text": "The store was closedso they drove back home."
+    },
+    {
+      "id": 29,
+      "score": 2,
+      "error_type": "missing_boundary",
+      "text": "The music stopped and everyone looked around.",
+      "boundary_annotation": "The music stopped | and everyone looked around.",
+      "description": "Missing coordinating boundary \u2014 two actions blend together, sounds rushed but followable.",
+      "tts_text": "The music stoppedand everyone looked around."
+    },
+    {
+      "id": 30,
+      "score": 2,
+      "error_type": "missing_boundary",
+      "text": "The alarm went off but he slept right through it.",
+      "boundary_annotation": "The alarm went off | but he slept right through it.",
+      "description": "Missing adversative boundary \u2014 contrast is dulled, sounds unnatural but sentence still comes through.",
+      "tts_text": "The alarm went offbut he slept right through it."
+    },
+    {
+      "id": 31,
+      "score": 2,
+      "error_type": "extra_boundary",
+      "text": "She picked up the phone and called her mother.",
+      "boundary_annotation": "She picked | up the phone and called her mother.",
+      "description": "Boundary splits phrasal verb 'picked up' \u2014 sounds like hesitation or system glitch, awkward but you can still follow.",
+      "tts_text": "She picked, up the phone and called her mother."
+    },
+    {
+      "id": 32,
+      "score": 2,
+      "error_type": "extra_boundary",
+      "text": "We should probably leave soon to catch the bus.",
+      "boundary_annotation": "We should | probably leave soon to catch the bus.",
+      "description": "Boundary after modal \u2014 sounds like unnatural hesitation, awkward pause but sentence remains comprehensible.",
+      "tts_text": "We should, probably leave soon to catch the bus."
+    },
+    {
+      "id": 33,
+      "score": 2,
+      "error_type": "extra_boundary",
+      "text": "The book on the table fell to the floor.",
+      "boundary_annotation": "The book | on the table fell to the floor.",
+      "description": "Boundary separates subject from its modifier \u2014 slightly disorienting but listener can regroup and follow.",
+      "tts_text": "The book, on the table fell to the floor."
+    },
+    {
+      "id": 34,
+      "score": 2,
+      "error_type": "extra_boundary",
+      "text": "He bought a new car last weekend.",
+      "boundary_annotation": "He bought | a new car last weekend.",
+      "description": "Boundary between verb and object \u2014 sounds like an awkward pause, but sentence meaning is clear.",
+      "tts_text": "He bought, a new car last weekend."
+    },
+    {
+      "id": 35,
+      "score": 2,
+      "error_type": "extra_boundary",
+      "text": "The children played in the park all afternoon.",
+      "boundary_annotation": "The children played | in the park all afternoon.",
+      "description": "Slightly early boundary before PP \u2014 sounds a bit choppy but sentence structure is still recoverable.",
+      "tts_text": "The children played, in the park all afternoon."
+    },
+    {
+      "id": 36,
+      "score": 2,
+      "error_type": "extra_boundary",
+      "text": "She finished her work and went home early.",
+      "boundary_annotation": "She finished | her work and went home early.",
+      "description": "Boundary splits verb from object \u2014 sounds like hesitation, awkward but meaning preserved.",
+      "tts_text": "She finished, her work and went home early."
+    },
+    {
+      "id": 37,
+      "score": 2,
+      "error_type": "extra_boundary",
+      "text": "The old man walked slowly down the street.",
+      "boundary_annotation": "The old | man walked slowly down the street.",
+      "description": "Boundary splits adjective from noun \u2014 sounds like a false start, awkward but sentence is followable.",
+      "tts_text": "The old, man walked slowly down the street."
+    },
+    {
+      "id": 38,
+      "score": 2,
+      "error_type": "extra_boundary",
+      "text": "They decided to leave the party early.",
+      "boundary_annotation": "They decided | to leave the party early.",
+      "description": "Boundary between verb and infinitive complement \u2014 sounds like hesitation, noticeable but comprehensible.",
+      "tts_text": "They decided, to leave the party early."
+    },
+    {
+      "id": 39,
+      "score": 2,
+      "error_type": "extra_boundary",
+      "text": "The rain stopped just before noon.",
+      "boundary_annotation": "The rain | stopped just before noon.",
+      "description": "Boundary between subject and verb \u2014 sounds like a system glitch, unnatural but sentence still comes through.",
+      "tts_text": "The rain, stopped just before noon."
+    },
+    {
+      "id": 40,
+      "score": 2,
+      "error_type": "extra_boundary",
+      "text": "He always drives way too fast on the highway.",
+      "boundary_annotation": "He always | drives way too fast on the highway.",
+      "description": "Boundary between adverb and verb \u2014 sounds like unnatural hesitation, awkward but followable.",
+      "tts_text": "He always, drives way too fast on the highway."
+    },
+    {
+      "id": 41,
+      "score": 3,
+      "error_type": "natural",
+      "text": "Although it was raining, we decided to go for a walk.",
+      "boundary_annotation": "Although it was raining, | we decided to go for a walk.",
+      "description": "Natural boundary at concessive clause edge \u2014 phrasing aligns with syntactic structure.",
+      "tts_text": "Although it was raining, we decided to go for a walk."
+    },
+    {
+      "id": 42,
+      "score": 3,
+      "error_type": "natural",
+      "text": "The meeting was long, but everyone stayed until the end.",
+      "boundary_annotation": "The meeting was long, | but everyone stayed until the end.",
+      "description": "Natural boundary before adversative conjunction \u2014 major constituents grouped correctly.",
+      "tts_text": "The meeting was long, but everyone stayed until the end."
+    },
+    {
+      "id": 43,
+      "score": 3,
+      "error_type": "natural",
+      "text": "She finished her work, then went home to cook dinner.",
+      "boundary_annotation": "She finished her work, | then went home to cook dinner.",
+      "description": "Natural boundary at temporal clause edge \u2014 phrasing feels natural and aligned.",
+      "tts_text": "She finished her work, then went home to cook dinner."
+    },
+    {
+      "id": 44,
+      "score": 3,
+      "error_type": "natural",
+      "text": "Because the traffic was heavy, we took a different route.",
+      "boundary_annotation": "Because the traffic was heavy, | we took a different route.",
+      "description": "Natural boundary after causal subordinate clause \u2014 structure is clear and natural.",
+      "tts_text": "Because the traffic was heavy, we took a different route."
+    },
+    {
+      "id": 45,
+      "score": 3,
+      "error_type": "natural",
+      "text": "If you finish your homework early, we can watch a movie.",
+      "boundary_annotation": "If you finish your homework early, | we can watch a movie.",
+      "description": "Natural boundary in conditional structure \u2014 clause edge feels right.",
+      "tts_text": "If you finish your homework early, we can watch a movie."
+    },
+    {
+      "id": 46,
+      "score": 3,
+      "error_type": "natural",
+      "text": "The restaurant was crowded, so we ordered takeout instead.",
+      "boundary_annotation": "The restaurant was crowded, | so we ordered takeout instead.",
+      "description": "Natural boundary before resultative conjunction \u2014 phrasing aligns with meaning.",
+      "tts_text": "The restaurant was crowded, so we ordered takeout instead."
+    },
+    {
+      "id": 47,
+      "score": 3,
+      "error_type": "natural",
+      "text": "While the baby was sleeping, the parents cleaned the house.",
+      "boundary_annotation": "While the baby was sleeping, | the parents cleaned the house.",
+      "description": "Natural boundary after temporal subordinate clause \u2014 phrases group correctly.",
+      "tts_text": "While the baby was sleeping, the parents cleaned the house."
+    },
+    {
+      "id": 48,
+      "score": 3,
+      "error_type": "natural",
+      "text": "The concert started late, yet the audience enjoyed every moment.",
+      "boundary_annotation": "The concert started late, | yet the audience enjoyed every moment.",
+      "description": "Natural boundary before adversative conjunction \u2014 phrasing feels natural.",
+      "tts_text": "The concert started late, yet the audience enjoyed every moment."
+    },
+    {
+      "id": 49,
+      "score": 3,
+      "error_type": "natural",
+      "text": "Since you're already here, you might as well stay for dinner.",
+      "boundary_annotation": "Since you're already here, | you might as well stay for dinner.",
+      "description": "Natural boundary at causal clause edge \u2014 phrasing aligns with syntactic structure.",
+      "tts_text": "Since you're already here, you might as well stay for dinner."
+    },
+    {
+      "id": 50,
+      "score": 3,
+      "error_type": "natural",
+      "text": "After the storm finally passed, the sky turned brilliant orange.",
+      "boundary_annotation": "After the storm finally passed, | the sky turned brilliant orange.",
+      "description": "Natural boundary after temporal subordinate clause \u2014 clause edge feels right.",
+      "tts_text": "After the storm finally passed, the sky turned brilliant orange."
+    },
+    {
+      "id": 51,
+      "score": 3,
+      "error_type": "natural",
+      "text": "The cat sat quietly on the warm windowsill.",
+      "boundary_annotation": "The cat sat quietly | on the warm windowsill.",
+      "description": "Natural phrasing \u2014 simple sentence with natural flow, no forced boundaries needed.",
+      "tts_text": "The cat sat quietly on the warm windowsill."
+    },
+    {
+      "id": 52,
+      "score": 3,
+      "error_type": "natural",
+      "text": "Children play in the park every afternoon.",
+      "boundary_annotation": "Children play in the park | every afternoon.",
+      "description": "Natural phrasing \u2014 simple declarative with natural phrase grouping.",
+      "tts_text": "Children play in the park every afternoon."
+    },
+    {
+      "id": 53,
+      "score": 3,
+      "error_type": "natural",
+      "text": "Fresh coffee smells wonderful in the morning.",
+      "boundary_annotation": "Fresh coffee smells wonderful | in the morning.",
+      "description": "Natural phrasing \u2014 descriptive sentence with natural prosodic flow.",
+      "tts_text": "Fresh coffee smells wonderful in the morning."
+    },
+    {
+      "id": 54,
+      "score": 3,
+      "error_type": "natural",
+      "text": "The sun rises early during the summer months.",
+      "boundary_annotation": "The sun rises early | during the summer months.",
+      "description": "Natural phrasing \u2014 factual statement with natural boundary before temporal PP.",
+      "tts_text": "The sun rises early during the summer months."
+    },
+    {
+      "id": 55,
+      "score": 3,
+      "error_type": "natural",
+      "text": "She reads a chapter before going to sleep.",
+      "boundary_annotation": "She reads a chapter | before going to sleep.",
+      "description": "Natural phrasing \u2014 routine activity with natural boundary before temporal clause.",
+      "tts_text": "She reads a chapter before going to sleep."
+    },
+    {
+      "id": 56,
+      "score": 3,
+      "error_type": "natural",
+      "text": "The express train arrives at platform three.",
+      "boundary_annotation": "The express train arrives | at platform three.",
+      "description": "Natural phrasing \u2014 informational sentence with natural flow.",
+      "tts_text": "The express train arrives at platform three."
+    },
+    {
+      "id": 57,
+      "score": 3,
+      "error_type": "natural",
+      "text": "Birds sing sweetly in the early springtime.",
+      "boundary_annotation": "Birds sing sweetly | in the early springtime.",
+      "description": "Natural phrasing \u2014 poetic observation with natural prosodic boundary.",
+      "tts_text": "Birds sing sweetly in the early springtime."
+    },
+    {
+      "id": 58,
+      "score": 3,
+      "error_type": "natural",
+      "text": "The public library closes at nine o'clock.",
+      "boundary_annotation": "The public library closes | at nine o'clock.",
+      "description": "Natural phrasing \u2014 factual information with natural boundary before time PP.",
+      "tts_text": "The public library closes at nine o'clock."
+    },
+    {
+      "id": 59,
+      "score": 3,
+      "error_type": "natural",
+      "text": "He waters all the garden plants every morning.",
+      "boundary_annotation": "He waters all the garden plants | every morning.",
+      "description": "Natural phrasing \u2014 daily routine with natural boundary before temporal adverbial.",
+      "tts_text": "He waters all the garden plants every morning."
+    },
+    {
+      "id": 60,
+      "score": 3,
+      "error_type": "natural",
+      "text": "Ocean waves crash steadily against the rocky shore.",
+      "boundary_annotation": "Ocean waves crash steadily | against the rocky shore.",
+      "description": "Natural phrasing \u2014 natural phenomenon with natural boundary before directional PP.",
+      "tts_text": "Ocean waves crash steadily against the rocky shore."
+    }
+  ]
+}

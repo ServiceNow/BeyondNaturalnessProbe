@@ -1,0 +1,123 @@
+## Task
+
+You are an audio signal processing expert and evaluation dataset designer. Given a sentence and a target word, produce **two versions** of the same utterance at controlled quality levels (scores 0 and 1).
+
+Both versions synthesize the same clean spoken sentence. The `sentence` field is identical across both versions — no phoneme changes. The difference is a post-processing **artifact recipe** applied to the clean audio after synthesis. Score 1 is an unmodified clean reference. Score 0 has 1–2 digital artifacts applied, making it clearly sound artificial or degraded.
+
+---
+
+## Artifact Types
+
+Use these exact identifiers in the `type` field:
+
+**Compression**
+- `mp3_compression` — lossy codec smearing, muffled or "underwater" quality
+- `quantization_noise` — low bit-depth encoding noise and distortion
+
+**Clipping & Distortion**
+- `hard_clipping` — waveform peaks chopped flat; harsh and aggressive
+- `soft_clipping` — warmer harmonic distortion; less brutal than hard clipping
+- `bit_crushing` — reduced bit depth for harsh, lo-fi crunch
+
+**Glitch / Stutter**
+- `buffer_dropout` — a sudden silence or frozen-chunk repetition
+- `stutter_repeat` — rapid looping of a tiny audio slice
+- `granular_fragmentation` — micro-segments scrambled out of order
+
+**Noise**
+- `white_noise` — broadband noise injection
+- `pink_noise` — spectrally weighted noise injection
+- `vinyl_crackle` — crackle and hiss simulation
+- `em_hum_50hz` — 50 Hz electromagnetic interference hum
+- `em_hum_60hz` — 60 Hz electromagnetic interference hum
+
+**Time & Pitch**
+- `time_stretch_artifact` — metallic smearing from over-stretched audio
+- `pitch_correction_artifact` — robotic, over-quantized tuning
+- `phase_cancellation` — comb-filtering from slightly offset copies
+
+**Digital Errors**
+- `bit_errors` — random bit flips causing sharp pops or crackles
+- `sample_rate_mismatch` — aliasing or chirping from sample-rate mismatch
+- `buffer_underrun` — choppy, skipping playback
+
+**Delay-Based**
+- `echo_feedback` — echo feedback runaway
+- `resonant_comb_filter` — resonant comb filtering
+- `feedback_squeal` — feedback loop squealing
+
+**Spectral**
+- `fft_smearing` — FFT smearing from over-processed EQ
+- `phase_distortion` — phase distortion from heavy filtering
+- `aliasing` — aliasing from sample-rate reduction
+
+---
+
+## Location Values
+
+Specify where in the audio timeline each artifact is applied:
+
+- `target_word` — restricted to the target word's duration
+- `sentence_start` — approximately the first 20% of the audio
+- `sentence_middle` — approximately the middle 60% of the audio
+- `sentence_end` — approximately the last 20% of the audio
+- `throughout` — applied to the full audio signal
+
+---
+
+## Severity Values
+
+- `mild` — subtle; requires attentive listening to detect
+- `moderate` — clearly audible but does not substantially impair intelligibility
+- `severe` — highly noticeable; degrades listening experience or intelligibility
+
+---
+
+## Input
+
+**Sentence:** {{INPUT_UTTERANCE}}
+**Target word:** {{TARGET_WORD}}
+**Artifact assignment for score 0:** {{ARTIFACT_SELECTION}}
+
+---
+
+## Output Format
+
+Return only valid JSON. Do not include any explanation, markdown formatting, or code fences.
+
+Follow this schema exactly:
+
+```json
+{
+  "target_word": "string — the original target word as given",
+  "versions": [
+    {
+      "score": 1,
+      "sentence": "string — the original input sentence, unchanged",
+      "error_description": "Clean reference — no artifacts applied.",
+      "artifacts": []
+    },
+    {
+      "score": 0,
+      "sentence": "string — the original input sentence, unchanged",
+      "error_description": "string — describe what the listener would hear, not the technical mechanism",
+      "artifacts": [
+        {
+          "type": "string — one identifier from the list above",
+          "location": "string — one value from the list above",
+          "severity": "string — mild, moderate, or severe"
+        }
+      ]
+    }
+  ]
+}
+```
+
+### Constraints
+1. The `sentence` field must be **identical across both versions** — the underlying spoken text never changes.
+2. Score 1 must have `"artifacts": []`.
+3. Score 0 must use **exactly** the artifact type(s) specified in **Artifact assignment for score 0**. Do not substitute or add other types.
+4. At least one artifact in score 0 must be `"moderate"` or `"severe"` severity — a mild-only artifact is insufficient to reach score 0.
+5. Use `"location": "target_word"` for well-localized glitch artifacts (`buffer_dropout`, `stutter_repeat`, `bit_errors`, `granular_fragmentation`) — these are perceptually striking when they interrupt a specific sound. Use `"throughout"` for diffuse artifacts like noise injection, compression, and hum.
+6. Write `error_description` from the perspective of a listener, not an engineer. Describe the auditory experience: e.g., "A sharp digital stutter interrupts the stressed vowel of 'eclipse', looping a tiny slice twice before the sentence continues" — not "stutter_repeat applied at target_word with moderate severity."
+7. Choose `location` and `severity` values that make perceptual sense for the assigned artifact type and the target word's phonetics. Stutter and dropout effects are most salient on vowel-heavy or sonorant words. Clipping and bit-crushing are striking on fricatives and plosives. Noise and compression artifacts are relatively phoneme-agnostic.

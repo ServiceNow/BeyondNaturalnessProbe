@@ -1,0 +1,2888 @@
+{
+  "source": "Harvard Sentences (IEEE Recommended Practice for Speech Quality Measurements)",
+  "license": "Public domain",
+  "language": "en",
+  "count": 720,
+  "utterances": [
+    {
+      "id": 1,
+      "text": "The birch canoe slid on the smooth planks."
+    },
+    {
+      "id": 2,
+      "text": "Glue the sheet to the dark blue background."
+    },
+    {
+      "id": 3,
+      "text": "It's easy to tell the depth of a well."
+    },
+    {
+      "id": 4,
+      "text": "These days a chicken leg is a rare dish."
+    },
+    {
+      "id": 5,
+      "text": "Rice is often served in round bowls."
+    },
+    {
+      "id": 6,
+      "text": "The juice of lemons makes fine punch."
+    },
+    {
+      "id": 7,
+      "text": "The box was thrown beside the parked truck."
+    },
+    {
+      "id": 8,
+      "text": "The hogs were fed chopped corn and garbage."
+    },
+    {
+      "id": 9,
+      "text": "Four hours of steady work faced us."
+    },
+    {
+      "id": 10,
+      "text": "A large size in stockings is hard to sell."
+    },
+    {
+      "id": 11,
+      "text": "The boy was there when the sun rose."
+    },
+    {
+      "id": 12,
+      "text": "A rod is used to catch pink salmon."
+    },
+    {
+      "id": 13,
+      "text": "The source of the huge river is the clear spring."
+    },
+    {
+      "id": 14,
+      "text": "Kick the ball straight and follow through."
+    },
+    {
+      "id": 15,
+      "text": "Help the woman get back to her feet."
+    },
+    {
+      "id": 16,
+      "text": "A pot of tea helps to pass the evening."
+    },
+    {
+      "id": 17,
+      "text": "Smoky fires lack flame and heat."
+    },
+    {
+      "id": 18,
+      "text": "The soft cushion broke the man's fall."
+    },
+    {
+      "id": 19,
+      "text": "The salt breeze came across from the sea."
+    },
+    {
+      "id": 20,
+      "text": "The girl at the booth sold fifty bonds."
+    },
+    {
+      "id": 21,
+      "text": "The small pup gnawed a hole in the sock."
+    },
+    {
+      "id": 22,
+      "text": "The fish twisted and turned on the bent hook."
+    },
+    {
+      "id": 23,
+      "text": "Press the pants and sew a button on the vest."
+    },
+    {
+      "id": 24,
+      "text": "The swan dive was far short of perfect."
+    },
+    {
+      "id": 25,
+      "text": "The beauty of the view stunned the young boy."
+    },
+    {
+      "id": 26,
+      "text": "Two blue fish swam in the tank."
+    },
+    {
+      "id": 27,
+      "text": "Her purse was full of useless trash."
+    },
+    {
+      "id": 28,
+      "text": "The colt reared and threw the tall rider."
+    },
+    {
+      "id": 29,
+      "text": "It snowed, rained, and hailed the same morning."
+    },
+    {
+      "id": 30,
+      "text": "Read verse out loud for pleasure."
+    },
+    {
+      "id": 31,
+      "text": "Hoist the load to your left shoulder."
+    },
+    {
+      "id": 32,
+      "text": "Take the winding path to reach the lake."
+    },
+    {
+      "id": 33,
+      "text": "Note closely the size of the gas tank."
+    },
+    {
+      "id": 34,
+      "text": "Wipe the grease off his dirty face."
+    },
+    {
+      "id": 35,
+      "text": "Mend the coat before you go out."
+    },
+    {
+      "id": 36,
+      "text": "The wrist was badly strained and hung limp."
+    },
+    {
+      "id": 37,
+      "text": "The stray cat gave birth to kittens."
+    },
+    {
+      "id": 38,
+      "text": "The young girl gave no clear response."
+    },
+    {
+      "id": 39,
+      "text": "The meal was cooked before the bell rang."
+    },
+    {
+      "id": 40,
+      "text": "What joy there is in living."
+    },
+    {
+      "id": 41,
+      "text": "A king ruled the state in the early days."
+    },
+    {
+      "id": 42,
+      "text": "The ship was torn apart on the sharp reef."
+    },
+    {
+      "id": 43,
+      "text": "Sickness kept him home the third week."
+    },
+    {
+      "id": 44,
+      "text": "The wide road shimmered in the hot sun."
+    },
+    {
+      "id": 45,
+      "text": "The lazy cow lay in the cool grass."
+    },
+    {
+      "id": 46,
+      "text": "Lift the square stone over the fence."
+    },
+    {
+      "id": 47,
+      "text": "The rope will bind the seven books at once."
+    },
+    {
+      "id": 48,
+      "text": "Hop over the fence and plunge in."
+    },
+    {
+      "id": 49,
+      "text": "The friendly gang left the drug store."
+    },
+    {
+      "id": 50,
+      "text": "Mesh wire keeps chicks inside."
+    },
+    {
+      "id": 51,
+      "text": "The frosty air passed through the coat."
+    },
+    {
+      "id": 52,
+      "text": "The crooked maze failed to fool the mouse."
+    },
+    {
+      "id": 53,
+      "text": "Adding fast leads to wrong sums."
+    },
+    {
+      "id": 54,
+      "text": "The show was a flop from the very start."
+    },
+    {
+      "id": 55,
+      "text": "A saw is a tool used for making boards."
+    },
+    {
+      "id": 56,
+      "text": "The wagon moved on well oiled wheels."
+    },
+    {
+      "id": 57,
+      "text": "March the soldiers past the next hill."
+    },
+    {
+      "id": 58,
+      "text": "A cup of sugar makes sweet fudge."
+    },
+    {
+      "id": 59,
+      "text": "Place a rosebush near the porch steps."
+    },
+    {
+      "id": 60,
+      "text": "Both lost their lives in the raging storm."
+    },
+    {
+      "id": 61,
+      "text": "We talked of the side show in the circus."
+    },
+    {
+      "id": 62,
+      "text": "Use a pencil to write the first draft."
+    },
+    {
+      "id": 63,
+      "text": "He ran half way to the hardware store."
+    },
+    {
+      "id": 64,
+      "text": "The clock struck to mark the third period."
+    },
+    {
+      "id": 65,
+      "text": "A small creek cut across the field."
+    },
+    {
+      "id": 66,
+      "text": "Cars and busses stalled in snow drifts."
+    },
+    {
+      "id": 67,
+      "text": "The set of china hit the floor with a crash."
+    },
+    {
+      "id": 68,
+      "text": "This is a grand season for hikes on the road."
+    },
+    {
+      "id": 69,
+      "text": "The dune rose from the edge of the water."
+    },
+    {
+      "id": 70,
+      "text": "Those words were the cue for the actor to leave."
+    },
+    {
+      "id": 71,
+      "text": "A yacht slid around the point into the bay."
+    },
+    {
+      "id": 72,
+      "text": "The two met while playing on the sand."
+    },
+    {
+      "id": 73,
+      "text": "The ink stain dried on the finished page."
+    },
+    {
+      "id": 74,
+      "text": "The walled town was seized without a fight."
+    },
+    {
+      "id": 75,
+      "text": "The lease ran out in sixteen weeks."
+    },
+    {
+      "id": 76,
+      "text": "A tame squirrel makes a nice pet."
+    },
+    {
+      "id": 77,
+      "text": "The horn of the car woke the sleeping cop."
+    },
+    {
+      "id": 78,
+      "text": "The heart beat strongly and with firm strokes."
+    },
+    {
+      "id": 79,
+      "text": "The pearl was worn in a thin silver ring."
+    },
+    {
+      "id": 80,
+      "text": "The fruit peel was cut in thick slices."
+    },
+    {
+      "id": 81,
+      "text": "The Navy attacked the big task force."
+    },
+    {
+      "id": 82,
+      "text": "See the cat glaring at the scared mouse."
+    },
+    {
+      "id": 83,
+      "text": "There are more than two factors here."
+    },
+    {
+      "id": 84,
+      "text": "The hat brim was wide and too droopy."
+    },
+    {
+      "id": 85,
+      "text": "The lawyer tried to lose his case."
+    },
+    {
+      "id": 86,
+      "text": "The grass curled around the fence post."
+    },
+    {
+      "id": 87,
+      "text": "Cut the pie into large parts."
+    },
+    {
+      "id": 88,
+      "text": "Men strive but seldom get rich."
+    },
+    {
+      "id": 89,
+      "text": "Always close the barn door tight."
+    },
+    {
+      "id": 90,
+      "text": "He lay prone and hardly moved a limb."
+    },
+    {
+      "id": 91,
+      "text": "The slush lay deep along the street."
+    },
+    {
+      "id": 92,
+      "text": "A wisp of cloud hung in the blue air."
+    },
+    {
+      "id": 93,
+      "text": "A pound of sugar costs more than eggs."
+    },
+    {
+      "id": 94,
+      "text": "The fin was sharp and cut the clear water."
+    },
+    {
+      "id": 95,
+      "text": "The play seems dull and quite stupid."
+    },
+    {
+      "id": 96,
+      "text": "Bail the boat to stop it from sinking."
+    },
+    {
+      "id": 97,
+      "text": "The term ended in late June that year."
+    },
+    {
+      "id": 98,
+      "text": "A tusk is used to make costly gifts."
+    },
+    {
+      "id": 99,
+      "text": "Ten pins were set in order."
+    },
+    {
+      "id": 100,
+      "text": "The bill was paid every third week."
+    },
+    {
+      "id": 101,
+      "text": "Oak is strong and also gives shade."
+    },
+    {
+      "id": 102,
+      "text": "Cats and dogs each hate the other."
+    },
+    {
+      "id": 103,
+      "text": "The pipe began to rust while new."
+    },
+    {
+      "id": 104,
+      "text": "Open the crate but don't break the glass."
+    },
+    {
+      "id": 105,
+      "text": "Add the sum to the product of these three."
+    },
+    {
+      "id": 106,
+      "text": "Thieves who rob friends deserve jail."
+    },
+    {
+      "id": 107,
+      "text": "The ripe taste of cheese improves with age."
+    },
+    {
+      "id": 108,
+      "text": "Act on these orders with great speed."
+    },
+    {
+      "id": 109,
+      "text": "The hog crawled under the high fence."
+    },
+    {
+      "id": 110,
+      "text": "Move the vat over the hot fire."
+    },
+    {
+      "id": 111,
+      "text": "The bark of the pine tree was shiny and dark."
+    },
+    {
+      "id": 112,
+      "text": "Leaves turn brown and yellow in the fall."
+    },
+    {
+      "id": 113,
+      "text": "The pennant waved when the wind blew."
+    },
+    {
+      "id": 114,
+      "text": "Split the log with a quick, sharp blow."
+    },
+    {
+      "id": 115,
+      "text": "Burn peat after the logs give out."
+    },
+    {
+      "id": 116,
+      "text": "He ordered peach pie with ice cream."
+    },
+    {
+      "id": 117,
+      "text": "Weave the carpet on the right hand side."
+    },
+    {
+      "id": 118,
+      "text": "Hemp is a weed found in parts of the tropics."
+    },
+    {
+      "id": 119,
+      "text": "A lame back kept his score low."
+    },
+    {
+      "id": 120,
+      "text": "We find joy in the simplest things."
+    },
+    {
+      "id": 121,
+      "text": "Type out three lists of orders."
+    },
+    {
+      "id": 122,
+      "text": "The harder he tried the less he got done."
+    },
+    {
+      "id": 123,
+      "text": "The boss ran the show with a watchful eye."
+    },
+    {
+      "id": 124,
+      "text": "The cup cracked and spilled its contents."
+    },
+    {
+      "id": 125,
+      "text": "Paste can cleanse the most dirty brass."
+    },
+    {
+      "id": 126,
+      "text": "The slang word for raw whiskey is booze."
+    },
+    {
+      "id": 127,
+      "text": "It caught its hind paw in a rusty trap."
+    },
+    {
+      "id": 128,
+      "text": "The wharf could be seen at the farther shore."
+    },
+    {
+      "id": 129,
+      "text": "Feel the heat of the weak dying flame."
+    },
+    {
+      "id": 130,
+      "text": "The tiny girl took off her hat."
+    },
+    {
+      "id": 131,
+      "text": "A cramp is no small danger on a swim."
+    },
+    {
+      "id": 132,
+      "text": "He said the same phrase thirty times."
+    },
+    {
+      "id": 133,
+      "text": "Pluck the bright rose without leaves."
+    },
+    {
+      "id": 134,
+      "text": "Two plus seven is less than ten."
+    },
+    {
+      "id": 135,
+      "text": "The glow deepened in the eyes of the sweet girl."
+    },
+    {
+      "id": 136,
+      "text": "Bring your problems to the wise chief."
+    },
+    {
+      "id": 137,
+      "text": "Write a fond note to the friend you cherish."
+    },
+    {
+      "id": 138,
+      "text": "Clothes and lodging are free to new men."
+    },
+    {
+      "id": 139,
+      "text": "We frown when events take a bad turn."
+    },
+    {
+      "id": 140,
+      "text": "Port is a strong wine with a smoky taste."
+    },
+    {
+      "id": 141,
+      "text": "The young kid jumped the rusty gate."
+    },
+    {
+      "id": 142,
+      "text": "Guess the results from the first scores."
+    },
+    {
+      "id": 143,
+      "text": "A salt pickle tastes fine with ham."
+    },
+    {
+      "id": 144,
+      "text": "The just claim got the right verdict."
+    },
+    {
+      "id": 145,
+      "text": "These thistles bend in a high wind."
+    },
+    {
+      "id": 146,
+      "text": "Pure bred poodles have curls."
+    },
+    {
+      "id": 147,
+      "text": "The tree top waved in a graceful way."
+    },
+    {
+      "id": 148,
+      "text": "The spot on the blotter was made by green ink."
+    },
+    {
+      "id": 149,
+      "text": "Mud was spattered on the front of his white shirt."
+    },
+    {
+      "id": 150,
+      "text": "The cigar burned a hole in the desk top."
+    },
+    {
+      "id": 151,
+      "text": "The empty flask stood on the tin tray."
+    },
+    {
+      "id": 152,
+      "text": "A speedy man can beat this track mark."
+    },
+    {
+      "id": 153,
+      "text": "He broke a new shoelace that day."
+    },
+    {
+      "id": 154,
+      "text": "The coffee stand is too high for the couch."
+    },
+    {
+      "id": 155,
+      "text": "The urge to write short stories is rare."
+    },
+    {
+      "id": 156,
+      "text": "The pencils have all been used."
+    },
+    {
+      "id": 157,
+      "text": "The pirates seized the crew of the lost ship."
+    },
+    {
+      "id": 158,
+      "text": "We tried to replace the coin but failed."
+    },
+    {
+      "id": 159,
+      "text": "She sewed the torn coat quite neatly."
+    },
+    {
+      "id": 160,
+      "text": "The sofa cushion is red and of light weight."
+    },
+    {
+      "id": 161,
+      "text": "The jacket hung on the back of the wide chair."
+    },
+    {
+      "id": 162,
+      "text": "At that high level the air is pure."
+    },
+    {
+      "id": 163,
+      "text": "Drop the two when you add the figures."
+    },
+    {
+      "id": 164,
+      "text": "A filing case is now hard to buy."
+    },
+    {
+      "id": 165,
+      "text": "An abrupt start does not win the prize."
+    },
+    {
+      "id": 166,
+      "text": "Wood is best for making toys and blocks."
+    },
+    {
+      "id": 167,
+      "text": "The office paint was a dull, sad tan."
+    },
+    {
+      "id": 168,
+      "text": "He knew the skill of the great young actress."
+    },
+    {
+      "id": 169,
+      "text": "A rag will soak up spilled water."
+    },
+    {
+      "id": 170,
+      "text": "A shower of dirt fell from the hot pipes."
+    },
+    {
+      "id": 171,
+      "text": "Steam hissed from the broken valve."
+    },
+    {
+      "id": 172,
+      "text": "The child almost hurt the small dog."
+    },
+    {
+      "id": 173,
+      "text": "There was a sound of dry leaves outside."
+    },
+    {
+      "id": 174,
+      "text": "The sky that morning was clear and bright blue."
+    },
+    {
+      "id": 175,
+      "text": "Torn scraps littered the stone floor."
+    },
+    {
+      "id": 176,
+      "text": "Sunday is the best part of the week."
+    },
+    {
+      "id": 177,
+      "text": "The doctor cured him with these pills."
+    },
+    {
+      "id": 178,
+      "text": "The new girl was fired today at noon."
+    },
+    {
+      "id": 179,
+      "text": "They felt gay when the ship arrived in port."
+    },
+    {
+      "id": 180,
+      "text": "Add the store's account to the last cent."
+    },
+    {
+      "id": 181,
+      "text": "Acid burns holes in wool cloth."
+    },
+    {
+      "id": 182,
+      "text": "Fairy tales should be fun to write."
+    },
+    {
+      "id": 183,
+      "text": "Eight miles of woodland burned to waste."
+    },
+    {
+      "id": 184,
+      "text": "The third act was dull and tired the players."
+    },
+    {
+      "id": 185,
+      "text": "A young child should not suffer fright."
+    },
+    {
+      "id": 186,
+      "text": "Add the column and put the sum here."
+    },
+    {
+      "id": 187,
+      "text": "We admire and love a good cook."
+    },
+    {
+      "id": 188,
+      "text": "There the flood mark is ten inches."
+    },
+    {
+      "id": 189,
+      "text": "He carved a head from the round block of marble."
+    },
+    {
+      "id": 190,
+      "text": "She has a smart way of wearing clothes."
+    },
+    {
+      "id": 191,
+      "text": "The fruit of a fig tree is apple-shaped."
+    },
+    {
+      "id": 192,
+      "text": "Corn cobs can be used to kindle a fire."
+    },
+    {
+      "id": 193,
+      "text": "Where were they when the noise started."
+    },
+    {
+      "id": 194,
+      "text": "The paper box is full of thumb tacks."
+    },
+    {
+      "id": 195,
+      "text": "Sell your gift to a buyer at a good gain."
+    },
+    {
+      "id": 196,
+      "text": "The tongs lay beside the ice pail."
+    },
+    {
+      "id": 197,
+      "text": "The petals fall with the next puff of wind."
+    },
+    {
+      "id": 198,
+      "text": "Bring your best compass to the third class."
+    },
+    {
+      "id": 199,
+      "text": "They could laugh although they were sad."
+    },
+    {
+      "id": 200,
+      "text": "Farmers came in to thresh the oat crop."
+    },
+    {
+      "id": 201,
+      "text": "The brown house was on fire to the attic."
+    },
+    {
+      "id": 202,
+      "text": "The lure is used to catch trout and flounder."
+    },
+    {
+      "id": 203,
+      "text": "Float the soap on top of the bath water."
+    },
+    {
+      "id": 204,
+      "text": "A blue crane is a tall wading bird."
+    },
+    {
+      "id": 205,
+      "text": "A fresh start will work such wonders."
+    },
+    {
+      "id": 206,
+      "text": "The club rented the rink for the fifth night."
+    },
+    {
+      "id": 207,
+      "text": "After the dance, they went straight home."
+    },
+    {
+      "id": 208,
+      "text": "The hostess taught the new maid to serve."
+    },
+    {
+      "id": 209,
+      "text": "He wrote his last novel there at the inn."
+    },
+    {
+      "id": 210,
+      "text": "Even the worst will beat his low score."
+    },
+    {
+      "id": 211,
+      "text": "The cement had dried when he moved it."
+    },
+    {
+      "id": 212,
+      "text": "The loss of the second ship was hard to take."
+    },
+    {
+      "id": 213,
+      "text": "The fly made its way along the wall."
+    },
+    {
+      "id": 214,
+      "text": "Do that with a wooden stick."
+    },
+    {
+      "id": 215,
+      "text": "Live wires should be kept covered."
+    },
+    {
+      "id": 216,
+      "text": "The large house had hot water taps."
+    },
+    {
+      "id": 217,
+      "text": "It is hard to erase blue or red ink."
+    },
+    {
+      "id": 218,
+      "text": "Write at once or you may forget it."
+    },
+    {
+      "id": 219,
+      "text": "The doorknob was made of bright clean brass."
+    },
+    {
+      "id": 220,
+      "text": "The wreck occurred by the bank on Main Street."
+    },
+    {
+      "id": 221,
+      "text": "A pencil with black lead writes best."
+    },
+    {
+      "id": 222,
+      "text": "Coax a young calf to drink from a bucket."
+    },
+    {
+      "id": 223,
+      "text": "Schools for ladies teach charm and grace."
+    },
+    {
+      "id": 224,
+      "text": "The lamp shone with a steady green flame."
+    },
+    {
+      "id": 225,
+      "text": "They took the axe and the saw to the forest."
+    },
+    {
+      "id": 226,
+      "text": "The ancient coin was quite dull and worn."
+    },
+    {
+      "id": 227,
+      "text": "The shaky barn fell with a loud crash."
+    },
+    {
+      "id": 228,
+      "text": "Jazz and swing fans like fast music."
+    },
+    {
+      "id": 229,
+      "text": "Rake the rubbish up and then burn it."
+    },
+    {
+      "id": 230,
+      "text": "Slash the gold cloth into fine ribbons."
+    },
+    {
+      "id": 231,
+      "text": "Try to have the court decide the case."
+    },
+    {
+      "id": 232,
+      "text": "They are pushed back each time they attack."
+    },
+    {
+      "id": 233,
+      "text": "He broke his ties with groups of former friends."
+    },
+    {
+      "id": 234,
+      "text": "They floated on the raft to sun their white backs."
+    },
+    {
+      "id": 235,
+      "text": "The map had an X that meant nothing."
+    },
+    {
+      "id": 236,
+      "text": "Whitings are small fish caught in nets."
+    },
+    {
+      "id": 237,
+      "text": "Some ads serve to cheat buyers."
+    },
+    {
+      "id": 238,
+      "text": "Jerk the rope and the bell rings weakly."
+    },
+    {
+      "id": 239,
+      "text": "A waxed floor makes us lose balance."
+    },
+    {
+      "id": 240,
+      "text": "Madam, this is the best brand of corn."
+    },
+    {
+      "id": 241,
+      "text": "On the islands the sea breeze is soft and mild."
+    },
+    {
+      "id": 242,
+      "text": "The play began as soon as we sat down."
+    },
+    {
+      "id": 243,
+      "text": "This will lead the world to more sound and fury."
+    },
+    {
+      "id": 244,
+      "text": "Add salt before you fry the egg."
+    },
+    {
+      "id": 245,
+      "text": "The rush for funds reached its peak Tuesday."
+    },
+    {
+      "id": 246,
+      "text": "The birch looked stark white and lonesome."
+    },
+    {
+      "id": 247,
+      "text": "The box is held by a bright red snapper."
+    },
+    {
+      "id": 248,
+      "text": "To make pure ice, you freeze water."
+    },
+    {
+      "id": 249,
+      "text": "The first worm gets snapped early."
+    },
+    {
+      "id": 250,
+      "text": "Jump the fence and hurry up the bank."
+    },
+    {
+      "id": 251,
+      "text": "Yell and clap as the curtain slides back."
+    },
+    {
+      "id": 252,
+      "text": "They are men who walk the middle of the road."
+    },
+    {
+      "id": 253,
+      "text": "Both brothers wear the same size."
+    },
+    {
+      "id": 254,
+      "text": "In some form or other we need fun."
+    },
+    {
+      "id": 255,
+      "text": "The prince ordered his head chopped off."
+    },
+    {
+      "id": 256,
+      "text": "The houses are built of red clay bricks."
+    },
+    {
+      "id": 257,
+      "text": "Ducks fly north but lack a compass."
+    },
+    {
+      "id": 258,
+      "text": "Fruit flavors are used in fizz drinks."
+    },
+    {
+      "id": 259,
+      "text": "These pills do less good than others."
+    },
+    {
+      "id": 260,
+      "text": "Canned pears lack full flavor."
+    },
+    {
+      "id": 261,
+      "text": "The dark pot hung in the front closet."
+    },
+    {
+      "id": 262,
+      "text": "Carry the pail to the wall and spill it there."
+    },
+    {
+      "id": 263,
+      "text": "The train brought our hero to the big town."
+    },
+    {
+      "id": 264,
+      "text": "We are sure that one war is enough."
+    },
+    {
+      "id": 265,
+      "text": "Gray paint stretched for miles around."
+    },
+    {
+      "id": 266,
+      "text": "The rude laugh filled the empty room."
+    },
+    {
+      "id": 267,
+      "text": "High seats are best for football fans."
+    },
+    {
+      "id": 268,
+      "text": "Tea served from the brown jug is tasty."
+    },
+    {
+      "id": 269,
+      "text": "A dash of pepper spoils beef stew."
+    },
+    {
+      "id": 270,
+      "text": "A zestful food is the hot-cross bun."
+    },
+    {
+      "id": 271,
+      "text": "The horse trotted around the field at a brisk pace."
+    },
+    {
+      "id": 272,
+      "text": "Find the twin who stole the pearl necklace."
+    },
+    {
+      "id": 273,
+      "text": "Cut the cord that binds the box tightly."
+    },
+    {
+      "id": 274,
+      "text": "The red tape bound the smuggled food."
+    },
+    {
+      "id": 275,
+      "text": "Look in the corner to find the tan shirt."
+    },
+    {
+      "id": 276,
+      "text": "The cold drizzle will halt the bond drive."
+    },
+    {
+      "id": 277,
+      "text": "Nine men were hired to dig the ruins."
+    },
+    {
+      "id": 278,
+      "text": "The junk yard had a mouldy smell."
+    },
+    {
+      "id": 279,
+      "text": "The flint sputtered and lit a pine torch."
+    },
+    {
+      "id": 280,
+      "text": "Soak the cloth and drown the sharp odor."
+    },
+    {
+      "id": 281,
+      "text": "The shelves were bare of both jam or crackers."
+    },
+    {
+      "id": 282,
+      "text": "A joy to every child is the swan boat."
+    },
+    {
+      "id": 283,
+      "text": "All sat frozen and watched the screen."
+    },
+    {
+      "id": 284,
+      "text": "A cloud of dust stung his tender eyes."
+    },
+    {
+      "id": 285,
+      "text": "To reach the end he needs much courage."
+    },
+    {
+      "id": 286,
+      "text": "Shape the clay gently into block form."
+    },
+    {
+      "id": 287,
+      "text": "A ridge on a smooth surface is a bump or flaw."
+    },
+    {
+      "id": 288,
+      "text": "Hedge apples may stain your hands green."
+    },
+    {
+      "id": 289,
+      "text": "Quench your thirst, then eat the crackers."
+    },
+    {
+      "id": 290,
+      "text": "Tight curls get limp on rainy days."
+    },
+    {
+      "id": 291,
+      "text": "The mute muffled the high tones of the horn."
+    },
+    {
+      "id": 292,
+      "text": "The gold ring fits only a pierced ear."
+    },
+    {
+      "id": 293,
+      "text": "The old pan was covered with hard fudge."
+    },
+    {
+      "id": 294,
+      "text": "Watch the log float in the wide river."
+    },
+    {
+      "id": 295,
+      "text": "The node on the stalk of wheat grew daily."
+    },
+    {
+      "id": 296,
+      "text": "The heap of fallen leaves was set on fire."
+    },
+    {
+      "id": 297,
+      "text": "Write fast if you want to finish early."
+    },
+    {
+      "id": 298,
+      "text": "His shirt was clean but one button was gone."
+    },
+    {
+      "id": 299,
+      "text": "The barrel of beer was a brew of malt and hops."
+    },
+    {
+      "id": 300,
+      "text": "Tin cans are absent from store shelves."
+    },
+    {
+      "id": 301,
+      "text": "Slide the box into that empty space."
+    },
+    {
+      "id": 302,
+      "text": "The plant grew large and green in the window."
+    },
+    {
+      "id": 303,
+      "text": "The beam dropped down on the workmen's head."
+    },
+    {
+      "id": 304,
+      "text": "Pink clouds floated with the breeze."
+    },
+    {
+      "id": 305,
+      "text": "She danced like a swan, tall and graceful."
+    },
+    {
+      "id": 306,
+      "text": "The tube was blown and the tire flat and useless."
+    },
+    {
+      "id": 307,
+      "text": "It is late morning on the old wall clock."
+    },
+    {
+      "id": 308,
+      "text": "Let's all join as we sing the last chorus."
+    },
+    {
+      "id": 309,
+      "text": "The last switch cannot be turned off."
+    },
+    {
+      "id": 310,
+      "text": "The fight will end in just six minutes."
+    },
+    {
+      "id": 311,
+      "text": "The store walls were lined with colored frocks."
+    },
+    {
+      "id": 312,
+      "text": "The peace league met to discuss their plans."
+    },
+    {
+      "id": 313,
+      "text": "The rise to fame of a person takes luck."
+    },
+    {
+      "id": 314,
+      "text": "Paper is scarce, so write with much care."
+    },
+    {
+      "id": 315,
+      "text": "The quick fox jumped on the sleeping cat."
+    },
+    {
+      "id": 316,
+      "text": "The nozzle of the fire hose was bright brass."
+    },
+    {
+      "id": 317,
+      "text": "Screw the round cap on as tight as needed."
+    },
+    {
+      "id": 318,
+      "text": "Time brings us many changes."
+    },
+    {
+      "id": 319,
+      "text": "The purple tie was ten years old."
+    },
+    {
+      "id": 320,
+      "text": "Men think and plan and sometimes act."
+    },
+    {
+      "id": 321,
+      "text": "Fill the ink jar with sticky glue."
+    },
+    {
+      "id": 322,
+      "text": "He smoke a big pipe with strong contents."
+    },
+    {
+      "id": 323,
+      "text": "We need grain to keep our mules healthy."
+    },
+    {
+      "id": 324,
+      "text": "Pack the records in a neat thin case."
+    },
+    {
+      "id": 325,
+      "text": "The crunch of feet in the snow was the only sound."
+    },
+    {
+      "id": 326,
+      "text": "The copper bowl shone in the sun's rays."
+    },
+    {
+      "id": 327,
+      "text": "Boards will warp unless kept dry."
+    },
+    {
+      "id": 328,
+      "text": "The plush chair leaned against the wall."
+    },
+    {
+      "id": 329,
+      "text": "Glass will clink when struck by metal."
+    },
+    {
+      "id": 330,
+      "text": "Bathe and relax in the cool green grass."
+    },
+    {
+      "id": 331,
+      "text": "Nine rows of soldiers stood in line."
+    },
+    {
+      "id": 332,
+      "text": "The beach is dry and shallow at low tide."
+    },
+    {
+      "id": 333,
+      "text": "The idea is to sew both edges straight."
+    },
+    {
+      "id": 334,
+      "text": "The kitten chased the dog down the street."
+    },
+    {
+      "id": 335,
+      "text": "Pages bound in cloth make a book."
+    },
+    {
+      "id": 336,
+      "text": "Try to trace the fine lines of the painting."
+    },
+    {
+      "id": 337,
+      "text": "Women form less than half of the group."
+    },
+    {
+      "id": 338,
+      "text": "The zones merge in the central part of town."
+    },
+    {
+      "id": 339,
+      "text": "A gem in the rough needs work to polish."
+    },
+    {
+      "id": 340,
+      "text": "Code is used when secrets are sent."
+    },
+    {
+      "id": 341,
+      "text": "Most of the news is easy for us to hear."
+    },
+    {
+      "id": 342,
+      "text": "He used the lathe to make brass objects."
+    },
+    {
+      "id": 343,
+      "text": "The vane on top of the pole revolved in the wind."
+    },
+    {
+      "id": 344,
+      "text": "Mince pie is a dish served to children."
+    },
+    {
+      "id": 345,
+      "text": "The clan gathered on each dull night."
+    },
+    {
+      "id": 346,
+      "text": "Let it burn, it gives us warmth and comfort."
+    },
+    {
+      "id": 347,
+      "text": "A castle built from sand fails to endure."
+    },
+    {
+      "id": 348,
+      "text": "A child's wit saved the day for us."
+    },
+    {
+      "id": 349,
+      "text": "Tack the strip of carpet to the worn floor."
+    },
+    {
+      "id": 350,
+      "text": "Next Tuesday we must vote."
+    },
+    {
+      "id": 351,
+      "text": "Pour the stew from the pot into the plate."
+    },
+    {
+      "id": 352,
+      "text": "Each penny shone like new."
+    },
+    {
+      "id": 353,
+      "text": "The man went to the woods to gather sticks."
+    },
+    {
+      "id": 354,
+      "text": "The dirt piles were lines along the road."
+    },
+    {
+      "id": 355,
+      "text": "The logs fell and tumbled into the clear stream."
+    },
+    {
+      "id": 356,
+      "text": "Just hoist it up and take it away."
+    },
+    {
+      "id": 357,
+      "text": "A ripe plum is fit for a king's palate."
+    },
+    {
+      "id": 358,
+      "text": "Our plans right now are hazy."
+    },
+    {
+      "id": 359,
+      "text": "Brass rings are sold by these natives."
+    },
+    {
+      "id": 360,
+      "text": "It takes a good trap to capture a bear."
+    },
+    {
+      "id": 361,
+      "text": "Feed the white mouse some flower seeds."
+    },
+    {
+      "id": 362,
+      "text": "The thaw came early and freed the stream."
+    },
+    {
+      "id": 363,
+      "text": "He took the lead and kept it the whole distance."
+    },
+    {
+      "id": 364,
+      "text": "The key you designed will fit the lock."
+    },
+    {
+      "id": 365,
+      "text": "Plead to the council to free the poor thief."
+    },
+    {
+      "id": 366,
+      "text": "Better hash is made of rare beef."
+    },
+    {
+      "id": 367,
+      "text": "This plank was made for walking on."
+    },
+    {
+      "id": 368,
+      "text": "The lake sparkled in the red hot sun."
+    },
+    {
+      "id": 369,
+      "text": "He crawled with care along the ledge."
+    },
+    {
+      "id": 370,
+      "text": "Tend the sheep while the dog wanders."
+    },
+    {
+      "id": 371,
+      "text": "It takes a lot of help to finish these."
+    },
+    {
+      "id": 372,
+      "text": "Mark the spot with a sign painted red."
+    },
+    {
+      "id": 373,
+      "text": "Take two shares as a fair profit."
+    },
+    {
+      "id": 374,
+      "text": "The fur of cats goes by many names."
+    },
+    {
+      "id": 375,
+      "text": "North winds bring colds and fevers."
+    },
+    {
+      "id": 376,
+      "text": "He asks no person to vouch for him."
+    },
+    {
+      "id": 377,
+      "text": "Go now and come here later."
+    },
+    {
+      "id": 378,
+      "text": "A sash of gold silk will trim her dress."
+    },
+    {
+      "id": 379,
+      "text": "Soap can wash most dirt away."
+    },
+    {
+      "id": 380,
+      "text": "That move means the game is over."
+    },
+    {
+      "id": 381,
+      "text": "He wrote down a long list of items."
+    },
+    {
+      "id": 382,
+      "text": "A siege will crack the strong defense."
+    },
+    {
+      "id": 383,
+      "text": "Grape juice and water mix well."
+    },
+    {
+      "id": 384,
+      "text": "Roads are paved with sticky tar."
+    },
+    {
+      "id": 385,
+      "text": "Fake stones shine but cost little."
+    },
+    {
+      "id": 386,
+      "text": "The drip of the rain made a pleasant sound."
+    },
+    {
+      "id": 387,
+      "text": "Smoke poured out of every crack."
+    },
+    {
+      "id": 388,
+      "text": "Serve the hot rum to the tired heroes."
+    },
+    {
+      "id": 389,
+      "text": "Much of the story makes good sense."
+    },
+    {
+      "id": 390,
+      "text": "The sun came up to light the eastern sky."
+    },
+    {
+      "id": 391,
+      "text": "Heave the line over the port side."
+    },
+    {
+      "id": 392,
+      "text": "A lathe cuts and trims any wood."
+    },
+    {
+      "id": 393,
+      "text": "It's a dense crowd in two distinct ways."
+    },
+    {
+      "id": 394,
+      "text": "His hip struck the knee of the next player."
+    },
+    {
+      "id": 395,
+      "text": "The stale smell of old beer lingers."
+    },
+    {
+      "id": 396,
+      "text": "The desk was firm on the shaky floor."
+    },
+    {
+      "id": 397,
+      "text": "It takes heat to bring out the odor."
+    },
+    {
+      "id": 398,
+      "text": "Beef is scarcer than some lamb."
+    },
+    {
+      "id": 399,
+      "text": "Raise the sail and steer the ship northward."
+    },
+    {
+      "id": 400,
+      "text": "A cone costs five cents on Mondays."
+    },
+    {
+      "id": 401,
+      "text": "A pod is what peas always grow in."
+    },
+    {
+      "id": 402,
+      "text": "Jerk the dart from the cork target."
+    },
+    {
+      "id": 403,
+      "text": "No cement will hold hard wood."
+    },
+    {
+      "id": 404,
+      "text": "We now have a new base for shipping."
+    },
+    {
+      "id": 405,
+      "text": "A list of names is carved around the base."
+    },
+    {
+      "id": 406,
+      "text": "The sheep were led home by a dog."
+    },
+    {
+      "id": 407,
+      "text": "Three for a dime, the young peddler cried."
+    },
+    {
+      "id": 408,
+      "text": "The sense of smell is better than that of touch."
+    },
+    {
+      "id": 409,
+      "text": "No hardship seemed to keep him sad."
+    },
+    {
+      "id": 410,
+      "text": "Grace makes up for lack of beauty."
+    },
+    {
+      "id": 411,
+      "text": "Nudge gently but wake her now."
+    },
+    {
+      "id": 412,
+      "text": "The news struck doubt into restless minds."
+    },
+    {
+      "id": 413,
+      "text": "Once we stood beside the shore."
+    },
+    {
+      "id": 414,
+      "text": "A chink in the wall allowed a draft to blow."
+    },
+    {
+      "id": 415,
+      "text": "Fasten two pins on each side."
+    },
+    {
+      "id": 416,
+      "text": "A cold dip restores health and zest."
+    },
+    {
+      "id": 417,
+      "text": "He takes the oath of office each March."
+    },
+    {
+      "id": 418,
+      "text": "The sand drifts over the sill of the old house."
+    },
+    {
+      "id": 419,
+      "text": "The point of the steel pen was bent and twisted."
+    },
+    {
+      "id": 420,
+      "text": "There is a lag between thought and act."
+    },
+    {
+      "id": 421,
+      "text": "Seed is needed to plant the spring corn."
+    },
+    {
+      "id": 422,
+      "text": "Draw the chart with heavy black lines."
+    },
+    {
+      "id": 423,
+      "text": "The boy owed his pal thirty cents."
+    },
+    {
+      "id": 424,
+      "text": "The chap slipped into the crowd and was lost."
+    },
+    {
+      "id": 425,
+      "text": "Hats are worn to tea and not to dinner."
+    },
+    {
+      "id": 426,
+      "text": "The ramp led up to the wide highway."
+    },
+    {
+      "id": 427,
+      "text": "Beat the dust from the rug onto the lawn."
+    },
+    {
+      "id": 428,
+      "text": "Say it slowly but make it ring clear."
+    },
+    {
+      "id": 429,
+      "text": "The straw nest housed five robins."
+    },
+    {
+      "id": 430,
+      "text": "Screen the porch with woven straw mats."
+    },
+    {
+      "id": 431,
+      "text": "This horse will nose his way to the finish."
+    },
+    {
+      "id": 432,
+      "text": "The dry wax protects the deep scratch."
+    },
+    {
+      "id": 433,
+      "text": "He picked up the dice for a second roll."
+    },
+    {
+      "id": 434,
+      "text": "These coins will be needed to pay his debt."
+    },
+    {
+      "id": 435,
+      "text": "The nag pulled the frail cart along."
+    },
+    {
+      "id": 436,
+      "text": "Twist the valve and release hot steam."
+    },
+    {
+      "id": 437,
+      "text": "The vamp of the shoe had a gold buckle."
+    },
+    {
+      "id": 438,
+      "text": "The smell of burned rags itches my nose."
+    },
+    {
+      "id": 439,
+      "text": "New pants lack cuffs and pockets."
+    },
+    {
+      "id": 440,
+      "text": "The marsh will freeze when cold enough."
+    },
+    {
+      "id": 441,
+      "text": "They slice the sausage thin with a knife."
+    },
+    {
+      "id": 442,
+      "text": "The bloom of the rose lasts a few days."
+    },
+    {
+      "id": 443,
+      "text": "A gray mare walked before the colt."
+    },
+    {
+      "id": 444,
+      "text": "Breakfast buns are fine with a hot drink."
+    },
+    {
+      "id": 445,
+      "text": "Bottles hold four kinds of rum."
+    },
+    {
+      "id": 446,
+      "text": "The man wore a feather in his felt hat."
+    },
+    {
+      "id": 447,
+      "text": "He wheeled the bike past the winding road."
+    },
+    {
+      "id": 448,
+      "text": "Drop the ashes on the worn old rug."
+    },
+    {
+      "id": 449,
+      "text": "The desk and both chairs were painted tan."
+    },
+    {
+      "id": 450,
+      "text": "Throw out the used paper cup and plate."
+    },
+    {
+      "id": 451,
+      "text": "A clean neck means a neat collar."
+    },
+    {
+      "id": 452,
+      "text": "The couch cover and hall drapes were blue."
+    },
+    {
+      "id": 453,
+      "text": "The stems of the tall glasses cracked and broke."
+    },
+    {
+      "id": 454,
+      "text": "The wall phone rang loud and often."
+    },
+    {
+      "id": 455,
+      "text": "The clothes dried on a thin wooden rack."
+    },
+    {
+      "id": 456,
+      "text": "Turn on the lantern which gives us light."
+    },
+    {
+      "id": 457,
+      "text": "The cleat sank deeply into the soft turf."
+    },
+    {
+      "id": 458,
+      "text": "The bills were mailed promptly on the tenth of the month."
+    },
+    {
+      "id": 459,
+      "text": "To have is better than to wait and hope."
+    },
+    {
+      "id": 460,
+      "text": "The price is fair for a good antique clock."
+    },
+    {
+      "id": 461,
+      "text": "The music played on while they talked."
+    },
+    {
+      "id": 462,
+      "text": "Dispense with a vest on a day like this."
+    },
+    {
+      "id": 463,
+      "text": "The bunch of grapes was pressed into wine."
+    },
+    {
+      "id": 464,
+      "text": "He sent the figs, but kept the ripe cherries."
+    },
+    {
+      "id": 465,
+      "text": "The hinge on the door creaked with old age."
+    },
+    {
+      "id": 466,
+      "text": "The screen before the fire kept in the sparks."
+    },
+    {
+      "id": 467,
+      "text": "Fly by night, and you waste little time."
+    },
+    {
+      "id": 468,
+      "text": "Thick glasses helped him read the print."
+    },
+    {
+      "id": 469,
+      "text": "Birth and death mark the limits of life."
+    },
+    {
+      "id": 470,
+      "text": "The chair looked strong but had no bottom."
+    },
+    {
+      "id": 471,
+      "text": "The kite flew wildly in the high wind."
+    },
+    {
+      "id": 472,
+      "text": "A fur muff is stylish once more."
+    },
+    {
+      "id": 473,
+      "text": "The tin box held priceless stones."
+    },
+    {
+      "id": 474,
+      "text": "We need an end of all such matter."
+    },
+    {
+      "id": 475,
+      "text": "The case was puzzling to the old and wise."
+    },
+    {
+      "id": 476,
+      "text": "The bright lanterns were gay on the dark lawn."
+    },
+    {
+      "id": 477,
+      "text": "We don't get much money but we have fun."
+    },
+    {
+      "id": 478,
+      "text": "The youth drove with zest, but little skill."
+    },
+    {
+      "id": 479,
+      "text": "Five years he lived with a shaggy dog."
+    },
+    {
+      "id": 480,
+      "text": "A fence cuts through the corner lot."
+    },
+    {
+      "id": 481,
+      "text": "The way to save money is not to spend much."
+    },
+    {
+      "id": 482,
+      "text": "Shut the hatch before the waves push it in."
+    },
+    {
+      "id": 483,
+      "text": "The odor of spring makes young hearts jump."
+    },
+    {
+      "id": 484,
+      "text": "Crack the walnut with your sharp side teeth."
+    },
+    {
+      "id": 485,
+      "text": "He offered proof in the form of a large chart."
+    },
+    {
+      "id": 486,
+      "text": "Send the stuff in a thick paper bag."
+    },
+    {
+      "id": 487,
+      "text": "A quart of milk is water for the most part."
+    },
+    {
+      "id": 488,
+      "text": "They told wild tales to frighten him."
+    },
+    {
+      "id": 489,
+      "text": "The three story house was built of stone."
+    },
+    {
+      "id": 490,
+      "text": "In the rear of the ground floor was a large passage."
+    },
+    {
+      "id": 491,
+      "text": "A man in a blue sweater sat at the desk."
+    },
+    {
+      "id": 492,
+      "text": "Oats are a food eaten by horse and man."
+    },
+    {
+      "id": 493,
+      "text": "Their eyelids droop for want of sleep."
+    },
+    {
+      "id": 494,
+      "text": "A sip of tea revives his tired friend."
+    },
+    {
+      "id": 495,
+      "text": "There are many ways to do these things."
+    },
+    {
+      "id": 496,
+      "text": "Tuck the sheet under the edge of the mat."
+    },
+    {
+      "id": 497,
+      "text": "A force equal to that would move the earth."
+    },
+    {
+      "id": 498,
+      "text": "We like to see clear weather."
+    },
+    {
+      "id": 499,
+      "text": "The work of the tailor is seen on each side."
+    },
+    {
+      "id": 500,
+      "text": "Take a chance and win a china doll."
+    },
+    {
+      "id": 501,
+      "text": "Shake the dust from your shoes, stranger."
+    },
+    {
+      "id": 502,
+      "text": "She was kind to sick old people."
+    },
+    {
+      "id": 503,
+      "text": "The square wooden crate was packed to be shipped."
+    },
+    {
+      "id": 504,
+      "text": "The dusty bench stood by the stone wall."
+    },
+    {
+      "id": 505,
+      "text": "We dress to suit the weather of most days."
+    },
+    {
+      "id": 506,
+      "text": "Smile when you say nasty words."
+    },
+    {
+      "id": 507,
+      "text": "A bowl of rice is free with chicken stew."
+    },
+    {
+      "id": 508,
+      "text": "The water in this well is a source of good health."
+    },
+    {
+      "id": 509,
+      "text": "Take shelter in this tent, but keep still."
+    },
+    {
+      "id": 510,
+      "text": "That guy is the writer of a few banned books."
+    },
+    {
+      "id": 511,
+      "text": "The little tales they tell are false."
+    },
+    {
+      "id": 512,
+      "text": "The door was barred, locked, and bolted as well."
+    },
+    {
+      "id": 513,
+      "text": "Ripe pears are fit for a queen's table."
+    },
+    {
+      "id": 514,
+      "text": "A big wet stain was on the round carpet."
+    },
+    {
+      "id": 515,
+      "text": "The kite dipped and swayed, but stayed aloft."
+    },
+    {
+      "id": 516,
+      "text": "The pleasant hours fly by much too soon."
+    },
+    {
+      "id": 517,
+      "text": "The room was crowded with a wild mob."
+    },
+    {
+      "id": 518,
+      "text": "This strong arm shall shield your honor."
+    },
+    {
+      "id": 519,
+      "text": "She blushed when he gave her a white orchid."
+    },
+    {
+      "id": 520,
+      "text": "The beetle droned in the hot June sun."
+    },
+    {
+      "id": 521,
+      "text": "Press the pedal with your left foot."
+    },
+    {
+      "id": 522,
+      "text": "Neat plans fail without luck."
+    },
+    {
+      "id": 523,
+      "text": "The black trunk fell from the landing."
+    },
+    {
+      "id": 524,
+      "text": "The bank pressed for payment of the debt."
+    },
+    {
+      "id": 525,
+      "text": "The theft of the pearl pin was kept secret."
+    },
+    {
+      "id": 526,
+      "text": "Shake hands with this friendly child."
+    },
+    {
+      "id": 527,
+      "text": "The vast space stretched into the far distance."
+    },
+    {
+      "id": 528,
+      "text": "A rich farm is rare in this sandy waste."
+    },
+    {
+      "id": 529,
+      "text": "His wide grin earned many friends."
+    },
+    {
+      "id": 530,
+      "text": "Flax makes a fine brand of paper."
+    },
+    {
+      "id": 531,
+      "text": "Hurdle the pit with the aid of a long pole."
+    },
+    {
+      "id": 532,
+      "text": "A strong bid may scare your partner stiff."
+    },
+    {
+      "id": 533,
+      "text": "Even a just cause needs power to win."
+    },
+    {
+      "id": 534,
+      "text": "Peep under the tent and see the clowns."
+    },
+    {
+      "id": 535,
+      "text": "The leaf drifts along with a slow spin."
+    },
+    {
+      "id": 536,
+      "text": "Cheap clothes are flashy but don't last."
+    },
+    {
+      "id": 537,
+      "text": "A thing of small note can cause despair."
+    },
+    {
+      "id": 538,
+      "text": "Flood the mails with requests for this book."
+    },
+    {
+      "id": 539,
+      "text": "A thick coat of black paint covered all."
+    },
+    {
+      "id": 540,
+      "text": "The pencil was cut to be sharp at both ends."
+    },
+    {
+      "id": 541,
+      "text": "Those last words were a strong statement."
+    },
+    {
+      "id": 542,
+      "text": "He wrote his name boldly at the top of the sheet."
+    },
+    {
+      "id": 543,
+      "text": "Dill pickles are sour but taste fine."
+    },
+    {
+      "id": 544,
+      "text": "Down that road is the way to the grain farmer."
+    },
+    {
+      "id": 545,
+      "text": "Either mud or dust are found at all times."
+    },
+    {
+      "id": 546,
+      "text": "The best method is to fix it in place with clips."
+    },
+    {
+      "id": 547,
+      "text": "If you mumble your speech will be lost."
+    },
+    {
+      "id": 548,
+      "text": "At night the alarm roused him from a deep sleep."
+    },
+    {
+      "id": 549,
+      "text": "Read just what the meter says."
+    },
+    {
+      "id": 550,
+      "text": "Fill your pack with bright trinkets for the poor."
+    },
+    {
+      "id": 551,
+      "text": "The small red neon lamp went out."
+    },
+    {
+      "id": 552,
+      "text": "Clams are small, round, soft, and tasty."
+    },
+    {
+      "id": 553,
+      "text": "The fan whirled its round blades softly."
+    },
+    {
+      "id": 554,
+      "text": "The line where the edges join was clean."
+    },
+    {
+      "id": 555,
+      "text": "Breathe deep and smell the piny air."
+    },
+    {
+      "id": 556,
+      "text": "It matters not if he reads these words or those."
+    },
+    {
+      "id": 557,
+      "text": "A brown leather bag hung from its strap."
+    },
+    {
+      "id": 558,
+      "text": "A toad and a frog are hard to tell apart."
+    },
+    {
+      "id": 559,
+      "text": "A white silk jacket goes with any shoes."
+    },
+    {
+      "id": 560,
+      "text": "A break in the dam almost caused a flood."
+    },
+    {
+      "id": 561,
+      "text": "Paint the sockets in the wall dull green."
+    },
+    {
+      "id": 562,
+      "text": "The child crawled into the dense grass."
+    },
+    {
+      "id": 563,
+      "text": "Bribes fail where honest men work."
+    },
+    {
+      "id": 564,
+      "text": "Trample the spark, else the flames will spread."
+    },
+    {
+      "id": 565,
+      "text": "The hilt of the sword was carved with fine designs."
+    },
+    {
+      "id": 566,
+      "text": "A round hole was drilled through the thin board."
+    },
+    {
+      "id": 567,
+      "text": "Footprints showed the path he took up the beach."
+    },
+    {
+      "id": 568,
+      "text": "She was waiting at my front lawn."
+    },
+    {
+      "id": 569,
+      "text": "A vent near the edge brought in fresh air."
+    },
+    {
+      "id": 570,
+      "text": "Prod the old mule with a crooked stick."
+    },
+    {
+      "id": 571,
+      "text": "It is a band of steel three inches wide."
+    },
+    {
+      "id": 572,
+      "text": "The pipe ran almost the length of the ditch."
+    },
+    {
+      "id": 573,
+      "text": "It was hidden from sight by a mass of leaves and shrubs."
+    },
+    {
+      "id": 574,
+      "text": "The weight of the package was seen on the high scale."
+    },
+    {
+      "id": 575,
+      "text": "Wake and rise, and step into the green outdoors."
+    },
+    {
+      "id": 576,
+      "text": "The green light in the brown box flickered."
+    },
+    {
+      "id": 577,
+      "text": "The brass tube circled the high wall."
+    },
+    {
+      "id": 578,
+      "text": "The lobes of her ears were pierced to hold rings."
+    },
+    {
+      "id": 579,
+      "text": "Hold the hammer near the end to drive the nail."
+    },
+    {
+      "id": 580,
+      "text": "Next Sunday is the twelfth of the month."
+    },
+    {
+      "id": 581,
+      "text": "Every word and phrase he speaks is true."
+    },
+    {
+      "id": 582,
+      "text": "He put his last cartridge into the gun and fired."
+    },
+    {
+      "id": 583,
+      "text": "They took their kids from the public school."
+    },
+    {
+      "id": 584,
+      "text": "Drive the screw straight into the wood."
+    },
+    {
+      "id": 585,
+      "text": "Keep the hatch tight and the watch constant."
+    },
+    {
+      "id": 586,
+      "text": "Sever the twine with a quick snip of the knife."
+    },
+    {
+      "id": 587,
+      "text": "Paper will dry out when wet."
+    },
+    {
+      "id": 588,
+      "text": "Slide the catch back and open the desk."
+    },
+    {
+      "id": 589,
+      "text": "Help the weak to preserve their strength."
+    },
+    {
+      "id": 590,
+      "text": "A sullen smile gets few friends."
+    },
+    {
+      "id": 591,
+      "text": "Stop whistling and watch the boys march."
+    },
+    {
+      "id": 592,
+      "text": "Jerk the cord, and out tumbles the gold."
+    },
+    {
+      "id": 593,
+      "text": "Slide the tray across the glass top."
+    },
+    {
+      "id": 594,
+      "text": "The cloud moved in a stately way and was gone."
+    },
+    {
+      "id": 595,
+      "text": "Light maple makes for a swell room."
+    },
+    {
+      "id": 596,
+      "text": "Set the piece here and say nothing."
+    },
+    {
+      "id": 597,
+      "text": "Dull stories make her laugh."
+    },
+    {
+      "id": 598,
+      "text": "A stiff cord will do to fasten your shoe."
+    },
+    {
+      "id": 599,
+      "text": "Get the trust fund to the bank early."
+    },
+    {
+      "id": 600,
+      "text": "Choose between the high road and the low."
+    },
+    {
+      "id": 601,
+      "text": "A plea for funds seems to come again."
+    },
+    {
+      "id": 602,
+      "text": "He lent his coat to the tall gaunt stranger."
+    },
+    {
+      "id": 603,
+      "text": "There is a strong chance it will happen once more."
+    },
+    {
+      "id": 604,
+      "text": "The duke left the park in a silver coach."
+    },
+    {
+      "id": 605,
+      "text": "Greet the new guests and leave quickly."
+    },
+    {
+      "id": 606,
+      "text": "When the frost has come it is time for turkey."
+    },
+    {
+      "id": 607,
+      "text": "Sweet words work better than fierce."
+    },
+    {
+      "id": 608,
+      "text": "A thin stripe runs down the middle."
+    },
+    {
+      "id": 609,
+      "text": "A six comes up more often than a ten."
+    },
+    {
+      "id": 610,
+      "text": "Lush fern grow on the lofty rocks."
+    },
+    {
+      "id": 611,
+      "text": "The ram scared the school children off."
+    },
+    {
+      "id": 612,
+      "text": "The team with the best timing looks good."
+    },
+    {
+      "id": 613,
+      "text": "The farmer swapped his horse for a brown ox."
+    },
+    {
+      "id": 614,
+      "text": "Sit on the perch and tell the others what to do."
+    },
+    {
+      "id": 615,
+      "text": "A steep trail is painful for our feet."
+    },
+    {
+      "id": 616,
+      "text": "The early phase of life moves fast."
+    },
+    {
+      "id": 617,
+      "text": "Green moss grows on the northern side."
+    },
+    {
+      "id": 618,
+      "text": "Tea in thin china has a sweet taste."
+    },
+    {
+      "id": 619,
+      "text": "Pitch the straw through the door of the stable."
+    },
+    {
+      "id": 620,
+      "text": "The latch on the back gate needed a nail."
+    },
+    {
+      "id": 621,
+      "text": "The goose was brought straight from the old market."
+    },
+    {
+      "id": 622,
+      "text": "The sink is the thing in which we pile dishes."
+    },
+    {
+      "id": 623,
+      "text": "A whiff of it will cure the most stubborn cold."
+    },
+    {
+      "id": 624,
+      "text": "The facts don't always show who is right."
+    },
+    {
+      "id": 625,
+      "text": "She flaps her cape as she parades the street."
+    },
+    {
+      "id": 626,
+      "text": "The loss of the cruiser was a blow to the fleet."
+    },
+    {
+      "id": 627,
+      "text": "Loop the braid to the left and then over."
+    },
+    {
+      "id": 628,
+      "text": "Plead with the lawyer to drop the lost cause."
+    },
+    {
+      "id": 629,
+      "text": "Calves thrive on tender spring grass."
+    },
+    {
+      "id": 630,
+      "text": "Post no bills on this office wall."
+    },
+    {
+      "id": 631,
+      "text": "Tear a thin sheet from the yellow pad."
+    },
+    {
+      "id": 632,
+      "text": "A cruise in warm waters in a sleek yacht is fun."
+    },
+    {
+      "id": 633,
+      "text": "A streak of color ran down the left edge."
+    },
+    {
+      "id": 634,
+      "text": "It was done before the boy could see it."
+    },
+    {
+      "id": 635,
+      "text": "Crouch before you jump or miss the mark."
+    },
+    {
+      "id": 636,
+      "text": "Pack the kits and don't forget the salt."
+    },
+    {
+      "id": 637,
+      "text": "The square peg will settle in the round hole."
+    },
+    {
+      "id": 638,
+      "text": "Fine soap saves tender skin."
+    },
+    {
+      "id": 639,
+      "text": "Poached eggs and tea must suffice."
+    },
+    {
+      "id": 640,
+      "text": "Bad nerves are jangled by a door slam."
+    },
+    {
+      "id": 641,
+      "text": "Ship maps are different from those for planes."
+    },
+    {
+      "id": 642,
+      "text": "Dimes showered down from all sides."
+    },
+    {
+      "id": 643,
+      "text": "They sang the same tunes at each party."
+    },
+    {
+      "id": 644,
+      "text": "The sky in the west is tinged with orange red."
+    },
+    {
+      "id": 645,
+      "text": "The pods of peas ferment in bare fields."
+    },
+    {
+      "id": 646,
+      "text": "The horse balked and threw the tall rider."
+    },
+    {
+      "id": 647,
+      "text": "The hitch between the horse and cart broke."
+    },
+    {
+      "id": 648,
+      "text": "Pile the coal high in the shed corner."
+    },
+    {
+      "id": 649,
+      "text": "A gold vase is both rare and costly."
+    },
+    {
+      "id": 650,
+      "text": "The knife was hung inside its bright sheath."
+    },
+    {
+      "id": 651,
+      "text": "The rarest spice comes from the far East."
+    },
+    {
+      "id": 652,
+      "text": "The roof should be tilted at a sharp slant."
+    },
+    {
+      "id": 653,
+      "text": "A smatter of French is worse than none."
+    },
+    {
+      "id": 654,
+      "text": "The mule trod the treadmill day and night."
+    },
+    {
+      "id": 655,
+      "text": "The aim of the contest is to raise a great fund."
+    },
+    {
+      "id": 656,
+      "text": "To send it now in large amounts is bad."
+    },
+    {
+      "id": 657,
+      "text": "There is a fine hard tang in salty air."
+    },
+    {
+      "id": 658,
+      "text": "Cod is the main business of the north shore."
+    },
+    {
+      "id": 659,
+      "text": "The slab was hewn from heavy blocks of slate."
+    },
+    {
+      "id": 660,
+      "text": "Dunk the stale biscuits into strong drink."
+    },
+    {
+      "id": 661,
+      "text": "Hang tinsel from both branches."
+    },
+    {
+      "id": 662,
+      "text": "Cap the jar with a tight brass cover."
+    },
+    {
+      "id": 663,
+      "text": "The poor boy missed the boat again."
+    },
+    {
+      "id": 664,
+      "text": "Be sure to set the lamp firmly in the hole."
+    },
+    {
+      "id": 665,
+      "text": "Pick a card and slip it under the pack."
+    },
+    {
+      "id": 666,
+      "text": "A round mat will cover the dull spot."
+    },
+    {
+      "id": 667,
+      "text": "The first part of the plan needs changing."
+    },
+    {
+      "id": 668,
+      "text": "A good book informs of what we ought to know."
+    },
+    {
+      "id": 669,
+      "text": "The mail comes in three batches per day."
+    },
+    {
+      "id": 670,
+      "text": "You cannot brew tea in a cold pot."
+    },
+    {
+      "id": 671,
+      "text": "Dots of light betrayed the black cat."
+    },
+    {
+      "id": 672,
+      "text": "Put the chart on the mantel and tack it down."
+    },
+    {
+      "id": 673,
+      "text": "The night shift men rate extra pay."
+    },
+    {
+      "id": 674,
+      "text": "The red paper brightened the dim stage."
+    },
+    {
+      "id": 675,
+      "text": "See the player scoot to third base."
+    },
+    {
+      "id": 676,
+      "text": "Slide the bill between the two leaves."
+    },
+    {
+      "id": 677,
+      "text": "Many hands help get the job done."
+    },
+    {
+      "id": 678,
+      "text": "We don't like to admit our small faults."
+    },
+    {
+      "id": 679,
+      "text": "No doubt about the way the wind blows."
+    },
+    {
+      "id": 680,
+      "text": "Dig deep in the earth for pirate's gold."
+    },
+    {
+      "id": 681,
+      "text": "The steady drip is worse than a drenching rain."
+    },
+    {
+      "id": 682,
+      "text": "A flat pack takes less luggage space."
+    },
+    {
+      "id": 683,
+      "text": "Green ice frosted the punch bowl."
+    },
+    {
+      "id": 684,
+      "text": "A stuffed chair slipped from the moving van."
+    },
+    {
+      "id": 685,
+      "text": "The stitch will serve but needs to be shortened."
+    },
+    {
+      "id": 686,
+      "text": "A thin book fits in the side pocket."
+    },
+    {
+      "id": 687,
+      "text": "The gloss on top made it unfit to read."
+    },
+    {
+      "id": 688,
+      "text": "The hail pattered on the burnt brown grass."
+    },
+    {
+      "id": 689,
+      "text": "Seven seals were stamped on great sheets."
+    },
+    {
+      "id": 690,
+      "text": "Our troops are set to strike heavy blows."
+    },
+    {
+      "id": 691,
+      "text": "The store was jammed before the sale could start."
+    },
+    {
+      "id": 692,
+      "text": "It was a bad error on the part of the new judge."
+    },
+    {
+      "id": 693,
+      "text": "One step more and the board will collapse."
+    },
+    {
+      "id": 694,
+      "text": "Take the match and strike it against your shoe."
+    },
+    {
+      "id": 695,
+      "text": "The pot boiled, but the contents failed to jell."
+    },
+    {
+      "id": 696,
+      "text": "The baby puts his right foot in his mouth."
+    },
+    {
+      "id": 697,
+      "text": "The bombs left most of the town in ruins."
+    },
+    {
+      "id": 698,
+      "text": "Stop and stare at the hard working man."
+    },
+    {
+      "id": 699,
+      "text": "The streets are narrow and full of sharp turns."
+    },
+    {
+      "id": 700,
+      "text": "The pup jerked the leash as he saw a feline shape."
+    },
+    {
+      "id": 701,
+      "text": "Open your book to the first page."
+    },
+    {
+      "id": 702,
+      "text": "Fish evade the net and swim off."
+    },
+    {
+      "id": 703,
+      "text": "Dip the pail once and let it settle."
+    },
+    {
+      "id": 704,
+      "text": "Will you please answer that phone."
+    },
+    {
+      "id": 705,
+      "text": "The big red apple fell to the ground."
+    },
+    {
+      "id": 706,
+      "text": "The curtain rose and the show was on."
+    },
+    {
+      "id": 707,
+      "text": "The young prince became heir to the throne."
+    },
+    {
+      "id": 708,
+      "text": "He sent the boy on a short errand."
+    },
+    {
+      "id": 709,
+      "text": "Leave now and you will arrive on time."
+    },
+    {
+      "id": 710,
+      "text": "The corner store was robbed last night."
+    },
+    {
+      "id": 711,
+      "text": "A gold ring will please most any girl."
+    },
+    {
+      "id": 712,
+      "text": "The long journey home took a year."
+    },
+    {
+      "id": 713,
+      "text": "She saw a cat in the neighbor's house."
+    },
+    {
+      "id": 714,
+      "text": "A pink shell was found on the sandy beach."
+    },
+    {
+      "id": 715,
+      "text": "Small children came to see him."
+    },
+    {
+      "id": 716,
+      "text": "The grass and bushes were wet with dew."
+    },
+    {
+      "id": 717,
+      "text": "The blind man counted his old coins."
+    },
+    {
+      "id": 718,
+      "text": "A severe storm tore down the barn."
+    },
+    {
+      "id": 719,
+      "text": "She called his name many times."
+    },
+    {
+      "id": 720,
+      "text": "When you hear the bell, come quickly."
+    }
+  ]
+}

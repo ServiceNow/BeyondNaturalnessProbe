@@ -1,0 +1,46 @@
+[project]
+name = "beyond-naturalness-probe"
+version = "0.1.0"
+description = "Synthetic speech error generator for the Beyond Naturalness TTS evaluator benchmark"
+requires-python = ">=3.14"
+dependencies = [
+    "openai==2.36.0",
+    "cartesia==3.0.2",
+    "elevenlabs==2.47.0",
+    "python-dotenv==1.2.2",
+    "numpy==2.4.4",
+    "praat-parselmouth==0.4.7",
+    "scipy==1.17.1",
+    "pyworld==0.3.5",
+    "soundfile==0.14.0",
+    "openpyxl==3.1.5",
+    "datasets==5.0.1",
+    # pyworld's __init__.py still does `import pkg_resources`, which setuptools
+    # dropped in 81.0.0 — pin below that so the expressiveness (PSOLA) path works.
+    "setuptools==80.10.2",
+]
+
+[tool.uv]
+constraint-dependencies = [
+    "aiohttp==3.14.5",
+    "anyio==4.15.1",
+    "certifi==2026.10.19",
+    "cryptography==48.0.1",
+    "filelock==3.29.0",
+    "fsspec==2026.6.0",
+    "idna==3.15",
+    "msgpack==1.2.1",
+    "multidict==7.1.0",
+    "pygments==2.20.0",
+    "requests==2.34.1",
+    "urllib3==2.8.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[dependency-groups]
+dev = [
+    "pytest==9.1.1",
+    "pytest-cov==7.1.0",
+]

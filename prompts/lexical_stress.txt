@@ -1,0 +1,84 @@
+## Task
+
+You are a phonetic transcription assistant. Given a sentence and a target word, produce **two versions** of the sentence in which the target word is replaced by Cartesia `sonic-3` phoneme notation. The two versions differ only in lexical stress placement.
+
+This task focuses exclusively on **lexical stress errors** — whether primary stress falls on the correct syllable. When stress shifts to a different syllable, you must also apply any **phonological changes** that would naturally follow from the new stress pattern in English, such as:
+- **Vowel reduction**: Full vowels in newly unstressed syllables should reduce (e.g., /ɛ/ → /ə/, /oʊ/ → /ə/).
+- **Vowel restoration**: Reduced vowels (e.g., /ə/) in newly stressed syllables should become their full counterparts.
+- Any other segmental changes that are a natural consequence of the stress shift in American English.
+
+---
+
+## Cartesia Phoneme Format
+
+Phoneme strings are written between `<<` and `>>` double angle brackets, with each phoneme separated by a `|` pipe. Stress markers precede the stressed syllable.
+
+**Example:** *Cartesia* → `<<k|ɑ|ɹ|ˈ|t|i|ʒ|ə>>`
+
+Use the following American English phoneme inventory:
+
+| Phoneme | Example          | Phoneme | Example          |
+|---------|------------------|---------|------------------|
+| aɪ      | *my*             | ɑ       | *cot*            |
+| aʊ      | *now*            | ɔ       | *law*            |
+| b       | *bed*            | ɔɪ      | *boy*            |
+| d       | *do*             | ə       | *sofa*           |
+| dʒ      | *jeans*          | ɛ       | *bed*            |
+| eɪ      | *day*            | ɝ       | *bird*           |
+| f       | *fish*           | ɡ       | *go*             |
+| h       | *hat*            | ɪ       | *bit*            |
+| i       | *see*            | ɹ       | *red*            |
+| j       | *yes*            | ʃ       | *ship*           |
+| k       | *key*            | ʊ       | *book*           |
+| l       | *lip*            | ʒ       | *vision*         |
+| m       | *man*            | ˈ       | primary stress   |
+| n       | *no*             | ˌ       | secondary stress |
+| oʊ      | *go*             | θ       | *thin*           |
+| p       | *pen*            | ð       | *this*           |
+| s       | *sip*            | æ       | *cat*            |
+| t       | *top*            | ŋ       | *sing*           |
+| tʃ      | *church*         | u       | *two*            |
+| v       | *van*            | w       | *we*             |
+| z       | *zoo*            |         |                  |
+
+---
+
+## Input
+
+**Sentence:** {{INPUT_UTTERANCE}}
+**Target word:** {{TARGET_WORD}}
+
+---
+
+## Output Format
+
+Return only valid JSON. Do not include any explanation, markdown formatting, or code fences.
+
+Follow this schema exactly:
+
+```json
+{
+  "target_word": "string — the original target word as given",
+  "versions": [
+    {
+      "score": 0,
+      "error_description": "string — describe which syllable incorrectly receives primary stress, where stress should be, and any phonological changes applied (e.g., 'Primary stress shifted from second to first syllable: /ˈɛk.spəɹt/ instead of correct /ɛk.ˈspɔɹt/ — second-syllable vowel reduced to schwa')",
+      "transcription": "string — the Cartesia IPA string with incorrect stress, e.g. <<ˈ|ɛ|k|s|p|ɔ|ɹ|t>>",
+      "sentence": "string — the full input sentence with the target word replaced inline by the transcription string"
+    },
+    {
+      "score": 1,
+      "error_description": "Canonical American English pronunciation with correct lexical stress placement.",
+      "transcription": "string — the Cartesia IPA string with correct stress, e.g. <<ɛ|k|ˈ|s|p|ɔ|ɹ|t>>",
+      "sentence": "string — the full input sentence with the target word replaced inline by the transcription string"
+    }
+  ]
+}
+```
+
+### Constraints
+- The target word **must have at least two syllables**. If the target word is monosyllabic, return an empty `versions` array.
+- Score 0: Move primary stress to a **different syllable** than where it canonically belongs. If the word has a secondary stress (`ˌ`), you may swap primary and secondary stress positions. Apply any phonological changes (vowel reduction/restoration, flapping, etc.) that would naturally result from the new stress pattern.
+- Score 1: Canonical American English pronunciation with correct stress placement.
+- The two versions **may differ in phoneme sequences** where the difference is a direct phonological consequence of the stress shift. Do not make arbitrary phoneme changes unrelated to stress.
+- You MUST use only phonemes from the inventory table above. Do NOT introduce IPA symbols that are not in the table (for example, do not use `ɚ`, `ɫ`, `ɾ`, `ʔ`, `ɑɹ`, length marks, nasalization diacritics, or any other symbol absent from the table). If you would normally write `ɚ`, write `ɝ` (stressed) or `ə|ɹ` (unstressed) instead. This applies to both transcriptions.

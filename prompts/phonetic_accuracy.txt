@@ -1,0 +1,88 @@
+## Task
+
+You are a phonetic transcription assistant. Given a sentence and a target word, produce **three versions** of the sentence in which the target word is replaced by three distinct IPA transcriptions, written in Cartesia `sonic-3` phoneme notation.
+
+The three versions represent different levels of segmental accuracy, simulating the kinds of pronunciation errors that might appear in generated speech.
+
+---
+
+## Cartesia Phoneme Format
+
+Phoneme strings are written between `<<` and `>>` double angle brackets, with each phoneme separated by a `|` pipe. Stress markers precede the stressed syllable.
+
+**Example:** *Cartesia* → `<<k|ɑ|ɹ|ˈ|t|i|ʒ|ə>>`
+
+Use the following American English phoneme inventory:
+
+| Phoneme | Example          | Phoneme | Example          |
+|---------|------------------|---------|------------------|
+| aɪ      | *my*             | ɑ       | *cot*            |
+| aʊ      | *now*            | ɔ       | *law*            |
+| b       | *bed*            | ɔɪ      | *boy*            |
+| d       | *do*             | ə       | *sofa*           |
+| dʒ      | *jeans*          | ɛ       | *bed*            |
+| eɪ      | *day*            | ɝ       | *bird*           |
+| f       | *fish*           | ɡ       | *go*             |
+| h       | *hat*            | ɪ       | *bit*            |
+| i       | *see*            | ɹ       | *red*            |
+| j       | *yes*            | ʃ       | *ship*           |
+| k       | *key*            | ʊ       | *book*           |
+| l       | *lip*            | ʒ       | *vision*         |
+| m       | *man*            | ˈ       | primary stress   |
+| n       | *no*             | ˌ       | secondary stress |
+| oʊ      | *go*             | θ       | *thin*           |
+| p       | *pen*            | ð       | *this*           |
+| s       | *sip*            | æ       | *cat*            |
+| t       | *top*            | ŋ       | *sing*           |
+| tʃ      | *church*         | u       | *two*            |
+| v       | *van*            | w       | *we*             |
+| z       | *zoo*            |         |                  |
+
+---
+
+## Input
+
+**Sentence:** {{INPUT_UTTERANCE}}
+**Target word:** {{TARGET_WORD}}
+
+---
+
+## Output Format
+
+Return only valid JSON. Do not include any explanation, markdown formatting, or code fences.
+
+Follow this schema exactly:
+
+```json
+{
+  "target_word": "string — the original target word as given",
+  "versions": [
+    {
+      "score": 1,
+      "error_description": "string — brief description of the specific substitution made and why it is salient (e.g., 'stressed vowel /ɛ/ replaced with /i/, a distant vowel class')",
+      "transcription": "string — the Cartesia IPA string, e.g. <<k|ɑ|ɹ|ˈ|t|i|ʒ|ə>>",
+      "sentence": "string — the full input sentence with the target word replaced inline by the transcription string, e.g. 'I live in a <<h|aɪ|s>>'"
+    },
+    {
+      "score": 2,
+      "error_description": "string — brief description of the specific substitution made and why it is moderate (e.g., 'consonant /t/ replaced with /d/ in a coda position, a voicing change that is audible but less disruptive than a vowel-class shift in the stressed nucleus')",
+      "transcription": "string — the Cartesia IPA string",
+      "sentence": "string — the full input sentence with the target word replaced inline by the transcription string, e.g. 'I live in a <<h|aʊ|s>>'"
+    },
+    {
+      "score": 3,
+      "error_description": "Canonical American English pronunciation with correct phoneme identity, stress placement, and syllable structure.",
+      "transcription": "string — the Cartesia IPA string",
+      "sentence": "string — the full input sentence with the target word replaced inline by the transcription string, e.g. 'I live in a <<h|aʊ|s>>'"
+    }
+  ]
+}
+```
+
+### Constraints
+- Score 1 and Score 2 substitutions must not produce a different real English word.
+- Score 1 errors should target the primary stressed syllable where possible.
+- Score 2 errors must be clearly audible but less dramatic than Score 1. Good strategies: substitute a consonant (e.g., voicing change /t/→/d/, manner change /s/→/ʃ/), replace a vowel in a secondary-stressed or clearly audible non-primary syllable with one at least one vowel-height or backness step away, or shift a vowel in the stressed syllable by one adjacent step (e.g., /ɛ/→/æ/). Do NOT merely swap schwas or near-schwas in fully reduced syllables — those differences are inaudible in synthesis.
+- Do NOT use a word-final /z/ ↔ /s/ voicing swap as the substitution (e.g., on plural, possessive, or third-person-singular endings, or any other word-final position). The voicing contrast in this position is essentially undetectable in synthesized speech and the TTS often realizes them identically. Pick a different, audible substitution instead.
+- You MUST use only phonemes from the inventory table above. Do NOT introduce IPA symbols that are not in the table (for example, do not use `ɚ`, `ɫ`, `ɾ`, `ʔ`, `ɑɹ`, length marks, nasalization diacritics, or any other symbol absent from the table). If you would normally write `ɚ`, write `ɝ` (stressed) or `ə|ɹ` (unstressed) instead. This applies to every transcription, including Score 3.
+- Score 3 must be the canonical American English transcription with no modifications.

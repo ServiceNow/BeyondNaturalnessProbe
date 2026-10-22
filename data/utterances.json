@@ -1,0 +1,408 @@
+{
+  "source": "Mozilla Common Voice (sentence-collector)",
+  "license": "CC-0",
+  "language": "en",
+  "count": 100,
+  "utterances": [
+    {
+      "id": 1,
+      "text": "Give us a light and come on."
+    },
+    {
+      "id": 2,
+      "text": "An eclipse of the moon cost them the loss of a gallant fleet."
+    },
+    {
+      "id": 3,
+      "text": "It is what I should revel in myself."
+    },
+    {
+      "id": 4,
+      "text": "I will attend to the matter at once."
+    },
+    {
+      "id": 5,
+      "text": "I met her out for a walk with her dog."
+    },
+    {
+      "id": 6,
+      "text": "He knew the apostrophe indicated the possessive case."
+    },
+    {
+      "id": 7,
+      "text": "Fallacious or dissembling arguments."
+    },
+    {
+      "id": 8,
+      "text": "This would be a quite autonomous chain of occurrences."
+    },
+    {
+      "id": 9,
+      "text": "Divya is still working on it."
+    },
+    {
+      "id": 10,
+      "text": "When he awoke he was alone."
+    },
+    {
+      "id": 11,
+      "text": "The camaraderie among the team was encouraging."
+    },
+    {
+      "id": 12,
+      "text": "And right there I saw and knew it all."
+    },
+    {
+      "id": 13,
+      "text": "And how did you like the ride?"
+    },
+    {
+      "id": 14,
+      "text": "Drinks, do you mean?"
+    },
+    {
+      "id": 15,
+      "text": "I just sat in enraptured silence."
+    },
+    {
+      "id": 16,
+      "text": "I shall be under those larch-trees."
+    },
+    {
+      "id": 17,
+      "text": "There is a stone which the popular imagination likens to an umbrella."
+    },
+    {
+      "id": 18,
+      "text": "William put his fists ready."
+    },
+    {
+      "id": 19,
+      "text": "And I emitted a hard laugh — one of the sneering kind."
+    },
+    {
+      "id": 20,
+      "text": "We are the proud parents of three children."
+    },
+    {
+      "id": 21,
+      "text": "I ate wheatabix for breakfast."
+    },
+    {
+      "id": 22,
+      "text": "This was practically what I did now."
+    },
+    {
+      "id": 23,
+      "text": "The blood on the weapon continues to feel with the blood in his body."
+    },
+    {
+      "id": 24,
+      "text": "I learned how to swaddle a baby."
+    },
+    {
+      "id": 25,
+      "text": "The kids played with their grandparents."
+    },
+    {
+      "id": 26,
+      "text": "When I am out of humour, I come and growl here."
+    },
+    {
+      "id": 27,
+      "text": "It rose steeply at his approach."
+    },
+    {
+      "id": 28,
+      "text": "A man in black stepped forward, took his disengaged arm."
+    },
+    {
+      "id": 29,
+      "text": "He was agitated that evening, the woman saw."
+    },
+    {
+      "id": 30,
+      "text": "The carriage is pushed on with four pushers."
+    },
+    {
+      "id": 31,
+      "text": "One teaspoonful should be plenty."
+    },
+    {
+      "id": 32,
+      "text": "It really is a great comfort to me."
+    },
+    {
+      "id": 33,
+      "text": "He thought only of himself."
+    },
+    {
+      "id": 34,
+      "text": "I have not the smallest doubt."
+    },
+    {
+      "id": 35,
+      "text": "On his left were the shuttered windows overlooking the lake."
+    },
+    {
+      "id": 36,
+      "text": "Extraordinarily he survived the crash."
+    },
+    {
+      "id": 37,
+      "text": "Downing had had to be content with day drill."
+    },
+    {
+      "id": 38,
+      "text": "She searched in vain for a familiar face."
+    },
+    {
+      "id": 39,
+      "text": "Ellen, tell him how disgraceful this conduct is."
+    },
+    {
+      "id": 40,
+      "text": "Ricardo got up and walked down from the hotel with the detective."
+    },
+    {
+      "id": 41,
+      "text": "Our house is free of pests."
+    },
+    {
+      "id": 42,
+      "text": "Without a measureless and perpetual uncertainty, the drama of human life would be destroyed."
+    },
+    {
+      "id": 43,
+      "text": "It appears that the whole ritual aims at ensuring a plentiful crop of rice."
+    },
+    {
+      "id": 44,
+      "text": "Are you sure she is safe?"
+    },
+    {
+      "id": 45,
+      "text": "The muscular jerkings did not cease until death."
+    },
+    {
+      "id": 46,
+      "text": "This document is a draft, and is open for discussion"
+    },
+    {
+      "id": 47,
+      "text": "He covered his eyes with his hand and turned away his head."
+    },
+    {
+      "id": 48,
+      "text": "She relentlessly punned on his name."
+    },
+    {
+      "id": 49,
+      "text": "Come to my arms, my beamish boy!"
+    },
+    {
+      "id": 50,
+      "text": "Transportation or the gallows for anybody who touches the property!"
+    },
+    {
+      "id": 51,
+      "text": "Jessie is a renowned comedian."
+    },
+    {
+      "id": 52,
+      "text": "there are almost no restrictions whatsoever."
+    },
+    {
+      "id": 53,
+      "text": "You must not stir from my side during the whole interview."
+    },
+    {
+      "id": 54,
+      "text": "Scarlet and gray boating suit, good enough for me."
+    },
+    {
+      "id": 55,
+      "text": "What a terrible shame!"
+    },
+    {
+      "id": 56,
+      "text": "Human beings show empathy most to those in need."
+    },
+    {
+      "id": 57,
+      "text": "But you do not know all."
+    },
+    {
+      "id": 58,
+      "text": "As you have done so many years."
+    },
+    {
+      "id": 59,
+      "text": "I passed at the school six happy, quiet years."
+    },
+    {
+      "id": 60,
+      "text": "It will allow for the contributions of hundreds or even thousands of scholars"
+    },
+    {
+      "id": 61,
+      "text": "Confidentiality during the consultation is essential"
+    },
+    {
+      "id": 62,
+      "text": "I shall employ the term meningitis to express the disease"
+    },
+    {
+      "id": 63,
+      "text": "Everything seemed to be bought and nothing to be sold there."
+    },
+    {
+      "id": 64,
+      "text": "She seemed to blossom for him alone."
+    },
+    {
+      "id": 65,
+      "text": "It reminded me of one of those forgotten little stations."
+    },
+    {
+      "id": 66,
+      "text": "The love he shows me is my joy, but it is a poisoned joy."
+    },
+    {
+      "id": 67,
+      "text": "She arranged the bread in the oven."
+    },
+    {
+      "id": 68,
+      "text": "He was not a great favourite with his fair sister-in-law."
+    },
+    {
+      "id": 69,
+      "text": "She had been thoroughly and efficiently mauled."
+    },
+    {
+      "id": 70,
+      "text": "Publicity is the very soul of justice."
+    },
+    {
+      "id": 71,
+      "text": "I grudge the hours when I must sleep."
+    },
+    {
+      "id": 72,
+      "text": "It happened one dark and stormy night."
+    },
+    {
+      "id": 73,
+      "text": "Cafes and clubs roared incessantly."
+    },
+    {
+      "id": 74,
+      "text": "You and I are very different creatures."
+    },
+    {
+      "id": 75,
+      "text": "Her eyes shining and her little hands clasped in girlish excitement."
+    },
+    {
+      "id": 76,
+      "text": "They would remain at the mercy of their exploiters until they were organized."
+    },
+    {
+      "id": 77,
+      "text": "I went to a public house to get a pint of beer."
+    },
+    {
+      "id": 78,
+      "text": "He was rather offended at her laughter."
+    },
+    {
+      "id": 79,
+      "text": "The old man was ghastly pale."
+    },
+    {
+      "id": 80,
+      "text": "She sat stiff, with eyes fixed and staring."
+    },
+    {
+      "id": 81,
+      "text": "It is customary to bury the afterbirth under a banana tree."
+    },
+    {
+      "id": 82,
+      "text": "Very soon the conversation drifted to his own doings."
+    },
+    {
+      "id": 83,
+      "text": "I know that my mistake has caused you some distress."
+    },
+    {
+      "id": 84,
+      "text": "No; he was pretty mild, on the whole."
+    },
+    {
+      "id": 85,
+      "text": "Boys came readily at his call."
+    },
+    {
+      "id": 86,
+      "text": "I read about it."
+    },
+    {
+      "id": 87,
+      "text": "And she let you go again? asked the man, in wonder."
+    },
+    {
+      "id": 88,
+      "text": "My lady will be so pleased with the discovery I have made."
+    },
+    {
+      "id": 89,
+      "text": "Spoken like the best of women!"
+    },
+    {
+      "id": 90,
+      "text": "It has upset him very much."
+    },
+    {
+      "id": 91,
+      "text": "But the pretty milk-maid was much too vexed to make any answer."
+    },
+    {
+      "id": 92,
+      "text": "I had not the temperament."
+    },
+    {
+      "id": 93,
+      "text": "We might live very comfortably together now, eh?"
+    },
+    {
+      "id": 94,
+      "text": "My grandad used to work on the railway."
+    },
+    {
+      "id": 95,
+      "text": "I have an allergic reaction to this."
+    },
+    {
+      "id": 96,
+      "text": "Then his mind became apathetic."
+    },
+    {
+      "id": 97,
+      "text": "Social media must automatically filter graphic content."
+    },
+    {
+      "id": 98,
+      "text": "The mother ties the string to the net in which she carries the child."
+    },
+    {
+      "id": 99,
+      "text": "He marked out the course which the bright orb was to pursue."
+    },
+    {
+      "id": 100,
+      "text": "It came down gradually, and I was not hurt a bit."
+    }
+  ]
+}

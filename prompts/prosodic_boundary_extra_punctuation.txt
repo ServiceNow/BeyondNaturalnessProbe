@@ -1,0 +1,27 @@
+## Task
+
+You are given an English sentence. Rewrite it by inserting commas, dashes (—),
+or ellipses (…) at positions that DISRUPT natural prosodic phrasing. Examples
+of disruptive positions:
+
+- Between a verb and its direct object.
+- Inside a noun phrase, e.g. between an adjective and the noun it modifies.
+- Between the head of a long subject phrase and its verb.
+
+Do not change any words, capitalization, or existing punctuation. Only ADD new
+punctuation marks at unnatural positions. The semantic content must stay
+identical.
+
+## Input
+
+**Sentence:** {{INPUT_UTTERANCE}}
+
+## Output Format
+
+Return only valid JSON, no markdown formatting or code fences. Schema:
+
+{
+  "score": 0,
+  "error_description": "string — brief description of which marks were inserted where and why each is disruptive",
+  "sentence": "string — the sentence with extra punctuation at unnatural positions"
+}

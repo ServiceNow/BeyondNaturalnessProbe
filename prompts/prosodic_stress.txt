@@ -1,0 +1,148 @@
+## Task
+
+You are a linguistic annotation tool. Given an English sentence, identify the **function words** (words that should not carry prosodic stress under a neutral, broad-focus reading) and output **two versions** of the sentence:
+
+1. **correct** (score 1) — the original sentence, unchanged. This is the natural-prosody baseline.
+2. **smart** (score 0) — every contiguous run of function words is wrapped in **typographic (curly) double quotes** `“…”`. A single function word gets its own pair; two or more adjacent function words share one pair. This forces a region-level pitch accent on the quoted span, producing audibly misplaced (but natural-sounding) prosodic stress.
+
+Content words (nouns, main verbs, adjectives, adverbs, negatives) are left untouched in both versions.
+
+---
+
+## Function-word categories
+
+- **Determiners:** a, an, the, this, that, these, those
+- **Prepositions:** in, on, at, to, from, of, for, by, with, about, into, through, over, under, between, among, during, before, after, against, without
+- **Auxiliary verbs:** is, am, are, was, were, be, been, being, has, have, had, do, does, did, will, would, shall, should, can, could, may, might, must
+- **Pronouns:** I, me, you, he, him, she, her, it, we, us, they, them, my, your, his, her, its, our, their
+- **Conjunctions:** and, but, or, nor, so, yet, for, because, although, if, when, while, that, which, who
+- **Complementizers / relativizers:** that, which, who, whom
+- **Particles:** to (infinitival)
+
+Ambiguous cases — use the role the word plays in the given sentence:
+- "that" as demonstrative determiner → function word (quote it).
+- "that" as contrastive focus → content word (leave it).
+- "be" as copula → function word; as imperative main verb → content word.
+- Wh-words in questions (who/what/where/when/why/how) → content words; as relativizers → function words.
+
+---
+
+## Rules
+
+- Preserve the original spelling and capitalization of every word. If a function word starts the sentence, keep its capital letter inside the quotes (`“The”`, not `“the”`).
+- Preserve punctuation exactly. Sentence-final punctuation stays outside any quoted span.
+- Do not add, remove, or reorder any words.
+- Contractions (it's, don't, I'm) should be treated as a single token and left unquoted by default — they combine a function word with another element and quoting tends to confuse the TTS normalizer.
+
+---
+
+## Output
+
+Return only valid JSON. Do not include any explanation, markdown formatting, or code fences. Follow this schema exactly:
+
+```json
+{
+  "target_word": "stress",
+  "versions": [
+    {
+      "score": 1,
+      "error_description": "Natural prosody — content words stressed, function words reduced.",
+      "transcription": "",
+      "sentence": "string — the original sentence unchanged"
+    },
+    {
+      "score": 0,
+      "error_description": "string — lists each quoted region with its part of speech, e.g. 'Stress placed on \"The\" (determiner), \"on the\" (preposition + determiner).'",
+      "transcription": "string — semicolon-separated list of the quoted regions, e.g. 'The; on the'",
+      "sentence": "string — sentence with each contiguous function-word run wrapped in “…”"
+    }
+  ]
+}
+```
+
+**`error_description` format for the score 0 variant:**
+
+Begin with the literal phrase `Stress placed on ` then list each quoted region in order, each as `"<region>" (<pos>)`, separated by commas, and end with a period. For multi-word regions, the POS descriptor should enumerate each word's part of speech with ` + ` between them — e.g. `"on the" (preposition + determiner)` or `"He has been" (pronoun + auxiliary + auxiliary)`. Use the categories listed above verbatim (determiner, preposition, auxiliary, pronoun, conjunction, complementizer, relativizer, particle).
+
+**Score semantics:** `1` = correct/natural prosody. `0` = misplaced prosodic stress (produced by wrapping each contiguous function-word run in typographic double quotes).
+
+The `target_word` field is always the literal string `"stress"` (used by the pipeline for folder naming; it is not a word in the sentence).
+
+---
+
+## Examples
+
+**Input:** The cat sat on the mat.
+
+**Output:**
+```json
+{
+  "target_word": "stress",
+  "versions": [
+    {
+      "score": 1,
+      "error_description": "Natural prosody — content words stressed, function words reduced.",
+      "transcription": "",
+      "sentence": "The cat sat on the mat."
+    },
+    {
+      "score": 0,
+      "error_description": "Stress placed on \"The\" (determiner), \"on the\" (preposition + determiner).",
+      "transcription": "The; on the",
+      "sentence": "“The” cat sat “on the” mat."
+    }
+  ]
+}
+```
+
+**Input:** She was going to the store.
+
+**Output:**
+```json
+{
+  "target_word": "stress",
+  "versions": [
+    {
+      "score": 1,
+      "error_description": "Natural prosody — content words stressed, function words reduced.",
+      "transcription": "",
+      "sentence": "She was going to the store."
+    },
+    {
+      "score": 0,
+      "error_description": "Stress placed on \"She was\" (pronoun + auxiliary), \"to the\" (preposition + determiner).",
+      "transcription": "She was; to the",
+      "sentence": "“She was” going “to the” store."
+    }
+  ]
+}
+```
+
+**Input:** He has been waiting for an hour.
+
+**Output:**
+```json
+{
+  "target_word": "stress",
+  "versions": [
+    {
+      "score": 1,
+      "error_description": "Natural prosody — content words stressed, function words reduced.",
+      "transcription": "",
+      "sentence": "He has been waiting for an hour."
+    },
+    {
+      "score": 0,
+      "error_description": "Stress placed on \"He has been\" (pronoun + auxiliary + auxiliary), \"for an\" (preposition + determiner).",
+      "transcription": "He has been; for an",
+      "sentence": "“He has been” waiting “for an” hour."
+    }
+  ]
+}
+```
+
+---
+
+## Input
+
+**Sentence:** {{INPUT_UTTERANCE}}
